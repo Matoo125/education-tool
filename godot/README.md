@@ -80,6 +80,26 @@ The left panel lists problems to fix before playing, such as doors that lead
 nowhere or a story with no ending. Play tries the story straight from the
 editor.
 
+## Writing a story with Claude
+
+`scripts/make_story.py` writes a whole story from a topic:
+
+```sh
+pip install anthropic                      # once; needs ANTHROPIC_API_KEY set
+python3 scripts/make_story.py "photosynthesis" --age 10
+python3 scripts/make_story.py "zlomky" --age 9 --language Czech --notes "halves and quarters only"
+```
+
+It asks Claude for the story, runs the same checks as the editor's problem
+list, plays the story through to make sure a student can reach an ending, and
+sends anything it finds back to Claude to fix (up to `--attempts` times). Then
+it saves the story to `godot/stories/`, prints the steps a student takes to
+finish it, and prints a student link. Read the story before giving it to a
+class: the checks can tell that it works, not that it teaches well.
+
+`python3 scripts/make_story.py --check story.json` checks a story file and
+prints its link without calling Claude.
+
 ## Story files
 
 Stories are JSON (`stories/water_cycle.json` is a full example):
