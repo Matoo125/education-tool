@@ -446,6 +446,11 @@ students read in the language the teacher asks for; keep ids in lowercase Englis
 - "intro" is shown first: two or three sentences that set the scene. Don't explain the controls; the game \
 does. "goal" is one sentence that stays on screen.
 - Everything must be true. If you simplify for the age group, simplify without saying anything false.
+- Every story is vegan friendly: nobody in it uses animals. No one eats, buys, sells or produces meat, fish, \
+milk, eggs, cheese, honey, wool or leather, and no one farms, hunts, fishes, rides or works animals. Food is \
+plant-based (fruit, vegetables, bread, nuts, oat milk). Animals are free: wildlife, companions, residents of \
+a sanctuary, or characters who talk. This also covers word lists and examples, and the animal props, which \
+must not be dressed as livestock (a fenced herd, a cow beside a milk stall).
 
 ## Building places
 
