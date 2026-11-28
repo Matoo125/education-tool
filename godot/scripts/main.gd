@@ -98,6 +98,7 @@ func _show_menu() -> void:
 		margin.add_theme_constant_override("margin_" + side, 56)
 	layer.add_child(margin)
 	var row := HBoxContainer.new()
+	row.add_theme_constant_override("separation", 24)
 	margin.add_child(row)
 	var card := PanelContainer.new()
 	card.theme_type_variation = "Card"
@@ -131,7 +132,41 @@ func _show_menu() -> void:
 	message.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	message.visible = false
 	box.add_child(message)
+	_add_library(row)
 	_set_screen(menu)
+
+
+## A second card listing the other stories that come with the app.
+func _add_library(row: HBoxContainer) -> void:
+	var stories := StoryData.library().filter(func(entry): return entry["path"] != SAMPLE)
+	if stories.is_empty():
+		return
+	var card := PanelContainer.new()
+	card.theme_type_variation = "Card"
+	card.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	card.custom_minimum_size.x = 380
+	row.add_child(card)
+	var box := VBoxContainer.new()
+	box.add_theme_constant_override("separation", 12)
+	card.add_child(box)
+	var heading := Label.new()
+	heading.text = "MORE STORIES TO PLAY"
+	heading.theme_type_variation = "SectionLabel"
+	box.add_child(heading)
+	var list := VBoxContainer.new()
+	list.add_theme_constant_override("separation", 12)
+	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	for entry in stories:
+		list.add_child(_menu_button(entry["title"], _play_file.bind(entry["path"])))
+	if stories.size() > 8:
+		# A long list scrolls, so the card stays on the screen.
+		var scroll := ScrollContainer.new()
+		scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+		scroll.custom_minimum_size.y = 420
+		scroll.add_child(list)
+		box.add_child(scroll)
+	else:
+		box.add_child(list)
 
 
 func _menu_button(text: String, on_press: Callable, accent := false) -> Button:
@@ -147,6 +182,11 @@ func _menu_button(text: String, on_press: Callable, accent := false) -> Button:
 func _play_sample() -> void:
 	_open_to = "play"
 	_open_file(SAMPLE)
+
+
+func _play_file(file_path: String) -> void:
+	_open_to = "play"
+	_open_file(file_path)
 
 
 func _edit_sample() -> void:

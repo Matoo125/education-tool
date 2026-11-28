@@ -1,0 +1,1148 @@
+{
+	"title": "Wo ist Bello?",
+	"intro": "Leně utekl ze statku pes Bello! Zvířata na statku viděla, kam běžel, a ráda pomůžou. Jenže mluví jenom německy...",
+	"goal": "Zjisti od zvířat, jak Bello vypadá a kde je, a pak to řekni Leně.",
+	"start_place": "farm",
+	"start_pos": [
+		0,
+		13
+	],
+	"places": [
+		{
+			"id": "farm",
+			"name": "Statek u Leny",
+			"size": 40,
+			"props": [
+				{
+					"kind": "house",
+					"pos": [
+						-12,
+						-11
+					],
+					"color": "#c0504d"
+				},
+				{
+					"kind": "house",
+					"pos": [
+						12,
+						-11
+					],
+					"color": "#e9d8b8"
+				},
+				{
+					"kind": "pond",
+					"pos": [
+						13,
+						9
+					]
+				},
+				{
+					"kind": "well",
+					"pos": [
+						-3,
+						-4
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-4.5,
+						-19
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						4.5,
+						-19
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-7.5,
+						-19
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						7.5,
+						-19
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-16,
+						3
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-13,
+						3
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-10,
+						3
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-17.5,
+						5
+					],
+					"rot": 90
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-17.5,
+						8
+					],
+					"rot": 90
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						3,
+						8
+					],
+					"rot": 180
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-8,
+						-8.5
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-6.8,
+						-8.2
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						8,
+						-8.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						2,
+						-15
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-2,
+						-15
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-18,
+						-17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						18,
+						-17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						18,
+						-2
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-18,
+						-3
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-17,
+						17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						5,
+						18
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						18,
+						17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-7,
+						18
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-11,
+						-18
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						11,
+						-18
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						9,
+						13
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						-3,
+						16
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-10,
+						-8
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						14,
+						-8
+					]
+				},
+				{
+					"kind": "chicken",
+					"pos": [
+						-6,
+						-6
+					],
+					"rot": 30,
+					"color": "#f4f1ea"
+				},
+				{
+					"kind": "chicken",
+					"pos": [
+						-8,
+						-4.5
+					],
+					"rot": -60,
+					"color": "#c98a4b"
+				},
+				{
+					"kind": "chicken",
+					"pos": [
+						-9.5,
+						-6.5
+					],
+					"rot": 120,
+					"color": "#f4f1ea"
+				},
+				{
+					"kind": "sheep",
+					"pos": [
+						-15,
+						9
+					],
+					"rot": 80,
+					"color": "#f1efe8"
+				},
+				{
+					"kind": "sheep",
+					"pos": [
+						-12,
+						11
+					],
+					"rot": -100,
+					"color": "#f1efe8"
+				},
+				{
+					"kind": "duck",
+					"pos": [
+						12,
+						12.5
+					],
+					"rot": 90,
+					"color": "#f2efe6"
+				},
+				{
+					"kind": "duck",
+					"pos": [
+						15.5,
+						6.5
+					],
+					"rot": -120,
+					"color": "#f2efe6"
+				},
+				{
+					"kind": "cat",
+					"pos": [
+						9,
+						-7
+					],
+					"rot": 200,
+					"color": "#e08a3c"
+				},
+				{
+					"kind": "rabbit",
+					"pos": [
+						6,
+						15
+					],
+					"rot": 45,
+					"color": "#c9b8a6"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						0,
+						-19
+					],
+					"to": "forest",
+					"label": "Les (der Wald)"
+				}
+			]
+		},
+		{
+			"id": "forest",
+			"name": "Les",
+			"size": 36,
+			"ground": "#5f9a52",
+			"weather": "cloudy",
+			"props": [
+				{
+					"kind": "pine",
+					"pos": [
+						-15,
+						-15
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-9,
+						-16
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-2,
+						-16.5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						5,
+						-15.5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						12,
+						-16
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						16.5,
+						-11
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-16.5,
+						-8
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						16,
+						-3
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-16,
+						0
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						16.5,
+						5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-16.5,
+						8
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						15,
+						12
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-14,
+						14
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						8,
+						16
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-7,
+						16.5
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-5,
+						-10
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						4,
+						-8
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						10,
+						-2
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-10,
+						4
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						6,
+						8
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-4,
+						10
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						0,
+						0
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						-7,
+						-3
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						8,
+						-11
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						12,
+						7
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						-12,
+						-11
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-2,
+						-5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						5,
+						2
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-9,
+						9
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						11,
+						11
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-4.5,
+						17
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						4.5,
+						17
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "rabbit",
+					"pos": [
+						9,
+						3
+					],
+					"rot": 45,
+					"color": "#c9b8a6"
+				},
+				{
+					"kind": "rabbit",
+					"pos": [
+						-3,
+						5
+					],
+					"rot": -80,
+					"color": "#f1efe8"
+				},
+				{
+					"kind": "fox",
+					"pos": [
+						13,
+						-8
+					],
+					"rot": 200,
+					"color": "#d9772e"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						0,
+						17
+					],
+					"rot": 180,
+					"to": "farm",
+					"label": "Statek u Leny"
+				}
+			]
+		}
+	],
+	"characters": [
+		{
+			"id": "lena",
+			"name": "Lena",
+			"place": "farm",
+			"pos": [
+				-2,
+				9
+			],
+			"color": "#d9577a",
+			"lines": [
+				{
+					"text": "Ach ne, nemůžu nikde najít svého psa Bella! Zvířata ho viděla, ale mluví jenom německy. Tady vedle mě na zemi leží můj obrázkový slovník. Vezmi si ho a zeptej se jich, prosím!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Najdu ho!",
+							"next": -1
+						}
+					],
+					"unless": "dictionary"
+				},
+				{
+					"text": "Ty víš, kde je nějaký pes? Počkej, musím si být jistá, že je to opravdu můj Bello. Jakou má barvu?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Er ist schwarz.",
+							"next": 2
+						},
+						{
+							"text": "Er ist blau.",
+							"next": 2
+						},
+						{
+							"text": "Er ist braun.",
+							"next": 3
+						}
+					],
+					"requires": "found_bello"
+				},
+				{
+					"text": "To není můj Bello! Schwarz je černý a blau je modrý. Co ti říkala kráva Klara?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Ještě si to rozmyslím.",
+							"next": 1
+						}
+					]
+				},
+				{
+					"text": "Ja, braun! A je to velký pes, nebo malý?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Er ist klein.",
+							"next": 5
+						},
+						{
+							"text": "Er ist groß.",
+							"next": 4
+						}
+					]
+				},
+				{
+					"text": "Groß? Ne, velký pes není můj Bello. Ovce Wolli říkala „nicht groß“: není velký.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Ještě si to rozmyslím.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Klein und braun, to je on! Kde je?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Er ist im Haus.",
+							"next": 6
+						},
+						{
+							"text": "Er ist im Wasser.",
+							"next": 6
+						},
+						{
+							"text": "Er ist im Wald.",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "V domě, tedy im Haus, jsem už hledala, a Wasser, vodu, Bello nesnáší! Kde tedy doopravdy je?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Ještě si to rozmyslím.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Im Wald! Moc ti děkuju. Bello, komm! Hodný pes!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Gern geschehen! (Rádo se stalo!)",
+							"next": -1,
+							"ending": "Bello běžel celou cestu domů a vrtěl ocasem. Podařilo se ti porozumět německým nápovědám zvířat: Bello je braun (hnědý) a klein (malý) a byl im Wald (v lese). Znáš teď také zvířata der Hund, die Kuh, das Schaf, die Ente a die Eule."
+						}
+					]
+				},
+				{
+					"text": "Kráva Klara, ovce Wolli a kachna Emma Bella viděly. Zeptej se jich, jak vypadá a kam běžel!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Jdu na to!",
+							"next": -1
+						}
+					],
+					"requires": "dictionary"
+				}
+			]
+		},
+		{
+			"id": "cow",
+			"name": "Klara",
+			"place": "farm",
+			"pos": [
+				7,
+				-2
+			],
+			"color": "#f4f4f0",
+			"look": "cow",
+			"lines": [
+				{
+					"text": "Muh! Ich bin eine Kuh. Der Hund ist braun!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi Lenin obrázkový slovník.)",
+							"next": -1
+						}
+					],
+					"unless": "dictionary"
+				},
+				{
+					"text": "Muh! Ich bin Klara. Ich bin eine Kuh. Bello? Der Hund ist braun.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Takže Bello je modrý?",
+							"next": 2
+						},
+						{
+							"text": "Takže Bello je hnědý?",
+							"next": 3
+						},
+						{
+							"text": "Takže Bello je černý?",
+							"next": 2
+						}
+					],
+					"requires": "dictionary"
+				},
+				{
+					"text": "Klara vrtí velkou hlavou. „Nein! Braun!“ „Blau“ je modrý a „schwarz“ je černý. Podívej se znovu na slovo „braun“.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 1
+						}
+					]
+				},
+				{
+					"text": "Ja, genau! Der Hund ist braun. Muh!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke, Klara!",
+							"next": -1,
+							"sets": "knows_colour"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "sheep",
+			"name": "Wolli",
+			"place": "farm",
+			"pos": [
+				-11,
+				7
+			],
+			"color": "#f1efe8",
+			"look": "sheep",
+			"lines": [
+				{
+					"text": "Mäh! Ich bin ein Schaf. Bello ist klein!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi Lenin obrázkový slovník.)",
+							"next": -1
+						}
+					],
+					"unless": "dictionary"
+				},
+				{
+					"text": "Mäh! Ich bin Wolli. Ich bin ein Schaf. Bello ist klein. Er ist nicht groß.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Takže Bello je velký?",
+							"next": 2
+						},
+						{
+							"text": "Takže Bello je malý?",
+							"next": 3
+						}
+					],
+					"requires": "dictionary"
+				},
+				{
+					"text": "„Nein, nein! Nicht groß!“ „Nicht“ znamená ne. Když tedy Bello není velký, je ...?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 1
+						}
+					]
+				},
+				{
+					"text": "Ja! Bello ist klein. Mäh!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke, Wolli!",
+							"next": -1,
+							"sets": "knows_size"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "duck",
+			"name": "Emma",
+			"place": "farm",
+			"pos": [
+				8,
+				6
+			],
+			"color": "#f2efe6",
+			"look": "duck",
+			"lines": [
+				{
+					"text": "Quak! Ich bin eine Ente. Der Hund ist im Wald!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi Lenin obrázkový slovník.)",
+							"next": -1
+						}
+					],
+					"unless": "dictionary"
+				},
+				{
+					"text": "Quak! Ich bin Emma. Ich bin eine Ente. Bello? Der Hund ist im Wald.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Takže Bello je v lese?",
+							"next": 3
+						},
+						{
+							"text": "Takže Bello je ve vodě?",
+							"next": 2
+						},
+						{
+							"text": "Takže Bello je v domě?",
+							"next": 2
+						}
+					],
+					"requires": "dictionary"
+				},
+				{
+					"text": "„Nein! Im Wald!“ Emma mává křídly. „Wasser“ je voda a „Haus“ je dům. Najdi si ve slovníku slovo „Wald“.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 1
+						}
+					]
+				},
+				{
+					"text": "Ja! Im Wald. Quak! (Emma ukazuje zobákem na branku na druhém konci statku.)",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke, Emma!",
+							"next": -1,
+							"sets": "knows_place"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "owl",
+			"name": "Eule Ursula",
+			"place": "forest",
+			"pos": [
+				3,
+				11
+			],
+			"color": "#8a6a4a",
+			"look": "owl",
+			"lines": [
+				{
+					"text": "Schuhu! Ich bin eine Eule. Drei Hunde sind im Wald: ein Hund ist schwarz, ein Hund ist weiß, und ein Hund ist braun.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Danke, Eule!",
+							"next": -1
+						},
+						{
+							"text": "Drei Hunde? (Tři psi?)",
+							"next": 1
+						}
+					]
+				},
+				{
+					"text": "Ja, drei! Eins, zwei, drei. Schuhu!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke!",
+							"next": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "black_dog",
+			"name": "Schwarzer Hund",
+			"place": "forest",
+			"pos": [
+				-8,
+				-7
+			],
+			"color": "#2b2b2b",
+			"look": "dog",
+			"lines": [
+				{
+					"text": "Wuff! Wuff!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Je tohle Bello? Ještě nevíš, jak Bello vypadá. Zeptej se zvířat na statku.)",
+							"next": -1
+						}
+					],
+					"unless": "knows_colour"
+				},
+				{
+					"text": "Wuff! Ich bin ein Hund. Ich bin groß und schwarz.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Bist du Bello? (Jsi Bello?)",
+							"next": 2
+						},
+						{
+							"text": "Tschüss!",
+							"next": -1
+						}
+					],
+					"requires": "knows_colour"
+				},
+				{
+					"text": "Nein! Ich bin nicht Bello. Ich heiße Rex. Ich bin schwarz, und Bello ist braun!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke, Rex!",
+							"next": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "white_dog",
+			"name": "Weißer Hund",
+			"place": "forest",
+			"pos": [
+				10,
+				3.5
+			],
+			"color": "#f4f4f0",
+			"look": "dog",
+			"lines": [
+				{
+					"text": "Wuff! Wuff!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Je tohle Bello? Ještě nevíš, jak Bello vypadá. Zeptej se zvířat na statku.)",
+							"next": -1
+						}
+					],
+					"unless": "knows_colour"
+				},
+				{
+					"text": "Wuff! Ich bin ein Hund. Ich bin klein und weiß.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Bist du Bello? (Jsi Bello?)",
+							"next": 2
+						},
+						{
+							"text": "Tschüss!",
+							"next": -1
+						}
+					],
+					"requires": "knows_colour"
+				},
+				{
+					"text": "Nein! Ich bin nicht Bello. Ich heiße Schnee. Ich bin weiß, und Bello ist braun!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke, Schnee!",
+							"next": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "brown_dog",
+			"name": "Brauner Hund",
+			"place": "forest",
+			"pos": [
+				3,
+				-12
+			],
+			"color": "#8a5a2b",
+			"look": "dog",
+			"lines": [
+				{
+					"text": "Wuff! Wuff!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Je tohle Bello? Ještě nevíš, jak Bello vypadá. Zeptej se zvířat na statku.)",
+							"next": -1
+						}
+					],
+					"unless": "knows_colour"
+				},
+				{
+					"text": "Wuff! Lena! Lena! (Bello chce, abys Leně řekl nebo řekla, kde je.)",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Komm, Bello! (Pojď, Bello!)",
+							"next": -1
+						}
+					],
+					"requires": "found_bello"
+				},
+				{
+					"text": "Wuff! Ich bin ein Hund. Ich bin klein und braun.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Bist du Bello? (Jsi Bello?)",
+							"next": 3
+						},
+						{
+							"text": "Tschüss!",
+							"next": -1
+						}
+					],
+					"requires": "knows_colour"
+				},
+				{
+					"text": "Ja! Ich bin Bello! Wo ist Lena? Wuff!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Lena ist zu Hause. (Lena je doma.)",
+							"next": -1,
+							"sets": "found_bello"
+						}
+					]
+				}
+			]
+		}
+	],
+	"items": [
+		{
+			"id": "dictionary",
+			"name": "Obrázkový slovník",
+			"place": "farm",
+			"pos": [
+				0.5,
+				10
+			],
+			"color": "#f2c14e",
+			"description": "Tiere (zvířata): der Hund = pes, die Katze = kočka, die Kuh = kráva, das Schaf = ovce, die Ente = kachna, das Huhn = slepice, die Eule = sova\nFarben (barvy): braun = hnědý, schwarz = černý, weiß = bílý, blau = modrý, rot = červený\ngroß = velký   klein = malý   nicht = ne (nicht groß = není velký)\nder Wald = les   das Haus = dům   das Wasser = voda   im Wald = v lese\nIch bin ... = Já jsem ...   Er ist ... = On je ...   Wo ist ...? = Kde je ...?\nJa = ano   Nein = ne"
+		}
+	]
+}

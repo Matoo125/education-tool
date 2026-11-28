@@ -1,0 +1,792 @@
+{
+	"title": "Guten Tag, Lindenberg!",
+	"intro": "Právě jsi na návštěvě v Lindenbergu, malém městě v Německu, u rodiny své kamarádky Mii. Je tu jeden háček: Miina babička mluví jenom německy a ty německy zatím neumíš ani slovo!",
+	"goal": "Nauč se německy pozdravit a pak se představ babičce, Omě Becker.",
+	"start_place": "square",
+	"start_pos": [
+		0,
+		11
+	],
+	"places": [
+		{
+			"id": "square",
+			"name": "Náměstí v Lindenbergu",
+			"size": 36,
+			"props": [
+				{
+					"kind": "fountain",
+					"pos": [
+						0,
+						-2
+					]
+				},
+				{
+					"kind": "house",
+					"pos": [
+						10,
+						-9
+					],
+					"color": "#f2d16b"
+				},
+				{
+					"kind": "house",
+					"pos": [
+						-11,
+						-9
+					],
+					"color": "#e9d8b8"
+				},
+				{
+					"kind": "house",
+					"pos": [
+						-13,
+						4
+					],
+					"rot": 90,
+					"color": "#9cc3e0"
+				},
+				{
+					"kind": "house",
+					"pos": [
+						13,
+						7
+					],
+					"rot": -90,
+					"color": "#e8b4a8"
+				},
+				{
+					"kind": "table",
+					"pos": [
+						8.5,
+						1.5
+					],
+					"rot": 90,
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						9.6,
+						3.2
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						9.8,
+						-0.2
+					]
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						-4.5,
+						-2
+					],
+					"rot": 90
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						4.5,
+						-4.5
+					],
+					"rot": -90
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-3,
+						1.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						3.5,
+						1.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						7,
+						-5.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-8,
+						-5.5
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-4,
+						-14
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						3,
+						-15
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						16,
+						-15
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-16.5,
+						-15
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-16,
+						13
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-8,
+						15.5
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						7,
+						15.5
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						16,
+						15
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-17,
+						-3
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						17,
+						-1
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						0,
+						16.5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						8,
+						-6.2
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						12,
+						-6.2
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						-6,
+						9
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						15,
+						0.5
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-10,
+						11.5
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-7,
+						11.5
+					]
+				},
+				{
+					"kind": "dog",
+					"pos": [
+						2.5,
+						6
+					],
+					"rot": 200,
+					"color": "#a0703c"
+				},
+				{
+					"kind": "cat",
+					"pos": [
+						-8,
+						1
+					],
+					"rot": 90,
+					"color": "#3a3a3a"
+				},
+				{
+					"kind": "chicken",
+					"pos": [
+						-11,
+						13.5
+					],
+					"rot": 40,
+					"color": "#f4f1ea"
+				},
+				{
+					"kind": "chicken",
+					"pos": [
+						-8.5,
+						13.2
+					],
+					"rot": -70,
+					"color": "#c98a4b"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						10,
+						-6.4
+					],
+					"to": "becker_house",
+					"label": "Dům Beckerových"
+				}
+			]
+		},
+		{
+			"id": "becker_house",
+			"name": "Dům Beckerových",
+			"indoor": true,
+			"size": 16,
+			"props": [
+				{
+					"kind": "shelf",
+					"pos": [
+						-5,
+						-7.2
+					]
+				},
+				{
+					"kind": "shelf",
+					"pos": [
+						5,
+						-7.2
+					]
+				},
+				{
+					"kind": "shelf",
+					"pos": [
+						-7.2,
+						-1
+					],
+					"rot": 90
+				},
+				{
+					"kind": "table",
+					"pos": [
+						3.5,
+						-3.5
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						3.5,
+						-5
+					],
+					"rot": 0
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						-4.5,
+						3
+					],
+					"rot": 90
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						6.5,
+						6.5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-6.5,
+						6.5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						0,
+						-7
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						6.5,
+						-6.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-6.5,
+						-6
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						6.6,
+						1.5
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						6.6,
+						2.7
+					]
+				},
+				{
+					"kind": "cat",
+					"pos": [
+						-4,
+						-4
+					],
+					"rot": 120,
+					"color": "#e08a3c"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						0,
+						7.6
+					],
+					"rot": 180,
+					"to": "square",
+					"label": "Náměstí"
+				}
+			]
+		}
+	],
+	"characters": [
+		{
+			"id": "mia",
+			"name": "Mia",
+			"place": "square",
+			"pos": [
+				-3,
+				6
+			],
+			"color": "#d9577a",
+			"lines": [
+				{
+					"text": "Ahoj, já jsem Mia! Vítej v Lindenbergu. Moje Oma, tedy babička, čeká doma, ale mluví jenom německy. Tady na zemi jsem ti nechala slovníček. Nejdřív si ho přečti!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Dobře, přečtu si ho.",
+							"next": -1
+						}
+					],
+					"unless": "phrase_book"
+				},
+				{
+					"text": "Náš dům je ten žlutý na druhé straně náměstí. Oma už čeká! Viel Glück: to znamená hodně štěstí.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Danke, Mia!",
+							"next": -1
+						}
+					],
+					"requires": "practised"
+				},
+				{
+					"text": "Máš slovníček? Tak si to vyzkoušíme. Je ráno a potkáš moji babičku. Co řekneš?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Guten Morgen!",
+							"next": 4
+						},
+						{
+							"text": "Gute Nacht!",
+							"next": 3
+						},
+						{
+							"text": "Tschüss!",
+							"next": 3
+						}
+					],
+					"requires": "phrase_book"
+				},
+				{
+					"text": "To není ono. „Gute Nacht“ se říká před spaním a „Tschüss“ při loučení. Ve kterém pozdravu je slovo ráno?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Genau! To znamená „přesně“. A jak se zeptáš jiného dítěte, jak se jmenuje?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Wie geht's?",
+							"next": 5
+						},
+						{
+							"text": "Wie heißt du?",
+							"next": 6
+						},
+						{
+							"text": "Ich heiße Mia.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Hm, ne. „Wie geht's?“ se ptá, jak se kdo má, a „Ich heiße ...“ říká tvoje vlastní jméno. Hledáš otázku se slovem „heißt“.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 4
+						}
+					]
+				},
+				{
+					"text": "Super! Poslední otázka. Někdo ti dá dárek. Co řekneš?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Bitte!",
+							"next": 7
+						},
+						{
+							"text": "Danke!",
+							"next": 8
+						}
+					]
+				},
+				{
+					"text": "Skoro! „Bitte“ znamená prosím a říká se až jako odpověď na poděkování. Nejdřív musí zaznít slovo děkuji.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 6
+						}
+					]
+				},
+				{
+					"text": "Výborně! U stánku s pečivem je můj kamarád Jonas; jestli chceš ještě trénovat, pozdrav ho. Potom běž za babičkou do žlutého domu.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Bis später! (Uvidíme se později!)",
+							"next": -1,
+							"sets": "practised"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "jonas",
+			"name": "Jonas",
+			"place": "square",
+			"pos": [
+				6.5,
+				1.5
+			],
+			"color": "#3f8f8b",
+			"lines": [
+				{
+					"text": "Hallo! Wie heißt du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš ani slovo. Nejdřív najdi Miin slovníček.)",
+							"next": -1
+						}
+					],
+					"unless": "phrase_book"
+				},
+				{
+					"text": "Hallo! Schmeckt die Brezel?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Ja, danke! (Ano, děkuju!)",
+							"next": -1
+						}
+					],
+					"requires": "pretzel"
+				},
+				{
+					"text": "Hallo! Wie heißt du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Ich heiße ... (řekni svoje jméno!)",
+							"next": 4
+						},
+						{
+							"text": "Gut, danke!",
+							"next": 3
+						}
+					],
+					"requires": "phrase_book"
+				},
+				{
+					"text": "Jonas se tváří zmateně. „Gut, danke“ znamená „dobře, děkuju“, ale on se ptal na jméno: „Wie heißt du?“",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Freut mich! Ich heiße Jonas. Wie geht's?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Auf Wiedersehen!",
+							"next": 5
+						},
+						{
+							"text": "Gut, danke! Und dir?",
+							"next": 6
+						}
+					]
+				},
+				{
+					"text": "Jonas se směje. „Auf Wiedersehen“ znamená na shledanou, a vy jste se teprve potkali! Ptal se „Wie geht's?“: jak se máš?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 4
+						}
+					]
+				},
+				{
+					"text": "Auch gut! Hier, eine Brezel für dich.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke!",
+							"next": 8,
+							"gives": "pretzel"
+						},
+						{
+							"text": "Bitte!",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "Ještě ne! „Bitte“ řekne Jonas, až mu poděkuješ. Co se říká, když něco dostaneš?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 6
+						}
+					]
+				},
+				{
+					"text": "Bitte! Tschüss!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Tschüss, Jonas!",
+							"next": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "oma",
+			"name": "Oma Becker",
+			"place": "becker_house",
+			"pos": [
+				0,
+				-2
+			],
+			"color": "#7b5ea7",
+			"lines": [
+				{
+					"text": "Guten Tag! Wie heißt du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Ještě nevíš, co říct. Nejdřív si to procvič s Miou na náměstí.)",
+							"next": -1
+						}
+					],
+					"unless": "practised"
+				},
+				{
+					"text": "Guten Tag! Ich bin Oma Becker. Wie heißt du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Gute Nacht!",
+							"next": 2
+						},
+						{
+							"text": "Guten Tag! Ich heiße ... (řekni svoje jméno!)",
+							"next": 3
+						}
+					],
+					"requires": "practised"
+				},
+				{
+					"text": "Oma Becker se usměje a podívá se na hodiny. „Gute Nacht“ se říká před spaním! Řekla „Guten Tag“ a zeptala se „Wie heißt du?“",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 1
+						}
+					]
+				},
+				{
+					"text": "Willkommen in Lindenberg! Wie geht's dir?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Gut, danke!",
+							"next": 5
+						},
+						{
+							"text": "Ich heiße gut.",
+							"next": 4
+						}
+					]
+				},
+				{
+					"text": "Oma Becker se zasměje. „Ich heiße“ znamená „jmenuji se“. Ptala se, jak se máš: „Wie geht's dir?“",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Schön! Hier ist ein Stück Apfelkuchen für dich.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Tschüss!",
+							"next": 6
+						},
+						{
+							"text": "Danke!",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "„Tschüss“ se říká při loučení, ale ty přece nechceš odejít dřív, než ochutnáš jablečný koláč! Co se říká, když něco dostaneš?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Bitte, bitte! Du sprichst gut Deutsch!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke, Oma Becker!",
+							"next": -1,
+							"ending": "Oma Becker říká, že mluvíš dobře německy, a její jablečný koláč je výborný. Teď už umíš německy pozdravit (Hallo, Guten Morgen, Guten Tag), říct své jméno (Ich heiße ...), odpovědět na „Wie geht's?“ (Gut, danke!) a říct Danke a Bitte."
+						}
+					]
+				}
+			]
+		}
+	],
+	"items": [
+		{
+			"id": "phrase_book",
+			"name": "Miin slovníček",
+			"place": "square",
+			"pos": [
+				-1,
+				7.5
+			],
+			"color": "#f2c14e",
+			"description": "Hallo! = Ahoj!\nGuten Morgen! = Dobré ráno!   Guten Tag! = Dobrý den!   Gute Nacht! = Dobrou noc!\nTschüss! = Ahoj! (při loučení)   Auf Wiedersehen! = Na shledanou!\nWie heißt du? = Jak se jmenuješ?   Ich heiße ... = Jmenuji se ...\nFreut mich! = Těší mě!   Willkommen! = Vítej!\nWie geht's? = Jak se máš?   Gut, danke! Und dir? = Dobře, děkuju! A ty?\nDanke! = Děkuji!   Bitte! = Prosím! (i jako odpověď na poděkování, stejně jako v češtině)\nTip: ß se čte jako „s“ a „ei“ se čte jako „aj“."
+		},
+		{
+			"id": "pretzel",
+			"name": "Brezel (preclík)",
+			"place": "",
+			"pos": [
+				0,
+				0
+			],
+			"color": "#b9772e",
+			"description": "Teplý slaný preclík od Jonase. „Eine Brezel für dich“ znamená „preclík pro tebe“."
+		}
+	]
+}
