@@ -19,7 +19,9 @@ godot --path godot -- --edit res://stories/water_cycle.json
 ```
 
 The menu can play or edit the sample story ("Where Does the Water Go?"),
-create a new story, or open a story file.
+create a new story, or open a story file. Every other story in `stories/` is
+listed beside it under "More stories to play"; to change one, open its file
+with "Open a story to edit...".
 
 ## In a browser
 

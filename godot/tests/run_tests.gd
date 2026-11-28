@@ -27,6 +27,7 @@ func _initialize() -> void:
 func _run() -> void:
 	for test in [
 		"test_sample_is_ready_to_play",
+		"test_every_story_in_the_library_is_ready_to_play",
 		"test_blank_story_explains_what_is_missing",
 		"test_normalized_fills_defaults",
 		"test_save_and_load_round_trip",
@@ -80,6 +81,22 @@ func test_sample_is_ready_to_play() -> void:
 	var result := StoryData.load_file(SAMPLE)
 	check(not result.has("error"), "sample loads: %s" % result.get("error", ""))
 	check(StoryData.problems(result["story"]).is_empty(), "sample has no problems: %s" % [StoryData.problems(result["story"])])
+
+
+func test_every_story_in_the_library_is_ready_to_play() -> void:
+	var library := StoryData.library()
+	var paths := library.map(func(entry): return entry["path"])
+	check(SAMPLE in paths, "the library lists the sample")
+	check(library.size() >= 4, "the library lists the other stories: %s" % [paths])
+	for entry in library:
+		var story: Dictionary = StoryData.load_file(entry["path"])["story"]
+		check(entry["title"] == story["title"], "%s is listed by its title" % entry["path"])
+		var found := StoryData.problems(story)
+		check(found.is_empty(), "%s has no problems: %s" % [entry["path"], found])
+		for place in story["places"]:
+			var node := Builder.build_place(story, place["id"])
+			check(node != null, "%s: %s builds" % [entry["path"], place["id"]])
+			node.free()
 
 
 func test_blank_story_explains_what_is_missing() -> void:

@@ -281,6 +281,21 @@ static func load_file(path: String) -> Dictionary:
 	return parse(FileAccess.get_file_as_string(path), path.get_file())
 
 
+## The stories that come with the app: [{"path": ..., "title": ...}], by title.
+## Files that aren't stories are left out.
+static func library(dir := "res://stories") -> Array[Dictionary]:
+	var out: Array[Dictionary] = []
+	for file in DirAccess.get_files_at(dir):
+		if file.get_extension() != "json":
+			continue
+		var path := dir.path_join(file)
+		var result := load_file(path)
+		if result.has("story"):
+			out.append({"path": path, "title": result["story"]["title"]})
+	out.sort_custom(func(a, b): return a["title"].naturalnocasecmp_to(b["title"]) < 0)
+	return out
+
+
 ## Reads a story from JSON text. Returns {"story": ...} or {"error": message}.
 static func parse(text: String, file_name := "The file") -> Dictionary:
 	var json := JSON.new()
