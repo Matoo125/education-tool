@@ -1,0 +1,801 @@
+{
+	"title": "Ein Freund für Hoppel",
+	"intro": "Tvůj kamarád Paul si vzal z útulku králíka Hoppela. Má ho moc rád, ale Hoppel jen smutně sedí v kleci. Paul neví proč: Hoppel totiž mluví jenom německy.",
+	"goal": "Zjisti, co si Hoppel přeje, a pomoz Paulovi, aby se u něj Hoppel měl dobře.",
+	"start_place": "garden",
+	"start_pos": [
+		0,
+		12
+	],
+	"places": [
+		{
+			"id": "garden",
+			"name": "Paulova zahrada",
+			"size": 34,
+			"props": [
+				{
+					"kind": "house",
+					"pos": [
+						-10,
+						-10
+					],
+					"color": "#e9d8b8"
+				},
+				{
+					"kind": "house",
+					"pos": [
+						9,
+						-10
+					],
+					"color": "#8fc98a"
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-6.5,
+						3.5
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						5,
+						9
+					],
+					"rot": 180
+				},
+				{
+					"kind": "table",
+					"pos": [
+						8,
+						4
+					],
+					"rot": 90,
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-14,
+						14
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-11,
+						14
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						11,
+						14
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						14,
+						14
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						6,
+						-6.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						12,
+						-6.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-4,
+						-6
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-15,
+						-15
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						0,
+						-15
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						15,
+						-15
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-15,
+						2
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						15,
+						3
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-8,
+						15.5
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						8,
+						15.5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						15.5,
+						-5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-15.5,
+						9
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-9,
+						7
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-2,
+						0
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						3,
+						-3
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						12,
+						9
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-12,
+						-6.5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						1,
+						15
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						10,
+						0
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						-3,
+						9
+					]
+				},
+				{
+					"kind": "cat",
+					"pos": [
+						4,
+						6
+					],
+					"rot": 200,
+					"color": "#3a3a3a"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						9,
+						-7.4
+					],
+					"to": "shelter",
+					"label": "Tierheim (útulek)"
+				}
+			]
+		},
+		{
+			"id": "shelter",
+			"name": "Tierheim (útulek)",
+			"indoor": true,
+			"size": 16,
+			"props": [
+				{
+					"kind": "shelf",
+					"pos": [
+						-5,
+						-7.2
+					]
+				},
+				{
+					"kind": "shelf",
+					"pos": [
+						5,
+						-7.2
+					]
+				},
+				{
+					"kind": "table",
+					"pos": [
+						4.5,
+						-3.5
+					],
+					"color": "#d9c7a3"
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						-6.5,
+						4
+					],
+					"rot": 90
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						6.6,
+						2
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						6.6,
+						3.2
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						6.5,
+						6.5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-6.5,
+						6.5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						0,
+						-7
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-6.5,
+						-4
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						6.5,
+						-6.5
+					]
+				},
+				{
+					"kind": "rabbit",
+					"pos": [
+						-2.5,
+						-3.5
+					],
+					"rot": 60,
+					"color": "#f1efe8"
+				},
+				{
+					"kind": "rabbit",
+					"pos": [
+						3,
+						3
+					],
+					"rot": -40,
+					"color": "#8a6a4a"
+				},
+				{
+					"kind": "cat",
+					"pos": [
+						-5,
+						0
+					],
+					"rot": 120,
+					"color": "#e08a3c"
+				},
+				{
+					"kind": "dog",
+					"pos": [
+						4.5,
+						0
+					],
+					"rot": -90,
+					"color": "#f4f4f0"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						0,
+						7.6
+					],
+					"rot": 180,
+					"to": "garden",
+					"label": "Paulova zahrada"
+				}
+			]
+		}
+	],
+	"characters": [
+		{
+			"id": "paul",
+			"name": "Paul",
+			"place": "garden",
+			"pos": [
+				1,
+				7
+			],
+			"color": "#4f81bd",
+			"lines": [
+				{
+					"text": "Ahoj, já jsem Paul! Tohle je Hoppel, králík, kterého jsme si vzali z útulku, německy z Tierheimu. Vypadá smutně a já nevím proč. Vezmi si můj sešit se slovíčky, leží tady u mě, a zeptej se ho, prosím!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Zeptám se ho.",
+							"next": -1
+						}
+					],
+					"unless": "workbook"
+				},
+				{
+					"text": "Ty jdeš s Frau Keller a s druhým králíkem? Počkej, co vlastně Hoppel říkal? Co si přeje nejvíc?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Hoppel möchte allein sein.",
+							"next": 2
+						},
+						{
+							"text": "Hoppel möchte einen Freund.",
+							"next": 3
+						}
+					],
+					"requires": "lilli_comes"
+				},
+				{
+					"text": "Být sám? To už je, a je z toho smutný. „Allein“ znamená sám. Co říkal Hoppel o kamarádovi?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 1
+						}
+					]
+				},
+				{
+					"text": "Kamaráda! To mě nenapadlo. A co ta klec?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Der Käfig ist zu klein. Hoppel möchte laufen.",
+							"next": 5
+						},
+						{
+							"text": "Der Käfig ist zu groß. Hoppel möchte schlafen.",
+							"next": 4
+						}
+					]
+				},
+				{
+					"text": "Moc velká? Vždyť se v ní skoro neotočí. „Zu groß“ je moc velká. Jak se řekne moc malá?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Tak mu postavíme velký výběh na zahradě. A ještě něco: já ho pořád nosím v náruči. Líbí se mu to?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Ja. Hoppel möchte auf den Arm.",
+							"next": 6
+						},
+						{
+							"text": "Nein. Hoppel möchte nicht auf den Arm. Er hat Angst.",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "Opravdu? Mně se zdálo, že se přitom třese. Hoppel řekl „Ich möchte nicht auf den Arm“. Co znamená „nicht“?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "On se bojí? To jsem nevěděl. Budu si k němu sedat na zem a počkám, až přijde sám. Děkuju, že mi to Hoppel přes tebe řekl!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Gern geschehen! (Rádo se stalo!)",
+							"next": -1,
+							"ending": "Paul postavil na zahradě velký výběh a Hoppel v něm teď běhá s kamarádkou Lilli. Umíš německy říct, co kdo chce a nechce: Ich möchte laufen, essen, trinken, schlafen, Ich möchte nicht auf den Arm. A víš, že králík potřebuje druhého králíka, hodně místa, seno a vodu, a že se zvířete ptáme, co chce ono, ne jen co chceme my."
+						}
+					]
+				},
+				{
+					"text": "Hoppel sedí v té malé kleci vedle mě. Kdyby bylo potřeba, útulek je ten zelený dům, pracuje tam Frau Keller.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Dobře!",
+							"next": -1
+						}
+					],
+					"requires": "workbook"
+				}
+			]
+		},
+		{
+			"id": "hoppel",
+			"name": "Hoppel",
+			"place": "garden",
+			"pos": [
+				-4.5,
+				4.5
+			],
+			"color": "#c9b8a6",
+			"look": "rabbit",
+			"lines": [
+				{
+					"text": "Hallo. Ich bin Hoppel. Ich bin traurig...",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi Paulův sešit se slovíčky.)",
+							"next": -1
+						}
+					],
+					"unless": "workbook"
+				},
+				{
+					"text": "Lilli kommt? Eine Freundin! Ich bin glücklich!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Das ist schön, Hoppel!",
+							"next": -1
+						}
+					],
+					"requires": "lilli_comes"
+				},
+				{
+					"text": "Ich möchte einen Freund! Hilfst du mir?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Ja! Ich gehe zum Tierheim. (Ano! Jdu do útulku.)",
+							"next": -1
+						}
+					],
+					"requires": "knows_wishes"
+				},
+				{
+					"text": "Hallo. Ich bin Hoppel. Der Käfig ist zu klein. Ich möchte laufen!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Klec je moc velká a chceš spát?",
+							"next": 4
+						},
+						{
+							"text": "Klec je moc malá a chceš běhat?",
+							"next": 5
+						}
+					],
+					"requires": "workbook"
+				},
+				{
+					"text": "Hoppel zavrtí ušima: „Nein! Zu klein! Ich möchte laufen!“ Najdi v sešitě „zu klein“ a „laufen“.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Ja! Und ich möchte Heu essen und Wasser trinken.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Chceš jíst seno a pít vodu?",
+							"next": 7
+						},
+						{
+							"text": "Chceš si hrát a spát?",
+							"next": 6
+						}
+					]
+				},
+				{
+					"text": "„Nein. Heu essen und Wasser trinken!“ Hrát si je „spielen“ a spát „schlafen“. Co znamená „essen“ a „trinken“?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Ja! Und ich möchte nicht auf den Arm. Ich habe Angst.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Chceš, aby tě někdo pořád nosil v náruči?",
+							"next": 8
+						},
+						{
+							"text": "Nechceš, aby tě někdo bral do náruče, protože se bojíš?",
+							"next": 9
+						}
+					]
+				},
+				{
+					"text": "Hoppel se přikrčí: „Nein! Nicht auf den Arm!“ Slovo „nicht“ znamená ne. Králíci se bojí, když je někdo zvedne ze země.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "Genau. Und ich bin allein. Ich möchte einen Freund!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Chceš být sám?",
+							"next": 10
+						},
+						{
+							"text": "Jsi sám a chceš kamaráda?",
+							"next": 11,
+							"sets": "knows_wishes"
+						}
+					]
+				},
+				{
+					"text": "„Nein! Ich bin allein. Ich möchte einen Freund!“ Hoppel už sám je. Co znamená „Freund“?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 9
+						}
+					]
+				},
+				{
+					"text": "Ja! Hilfst du mir? (Pomůžeš mi?)",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Ja! Ich gehe zum Tierheim. (Ano! Jdu do útulku.)",
+							"next": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "keller",
+			"name": "Frau Keller",
+			"place": "shelter",
+			"pos": [
+				0,
+				-2
+			],
+			"color": "#2c6e2f",
+			"lines": [
+				{
+					"text": "Guten Tag! Willkommen im Tierheim. Was möchtest du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Zatím nevíš, co říct. Nejdřív zjisti, co si přeje Hoppel.)",
+							"next": -1
+						}
+					],
+					"unless": "knows_wishes"
+				},
+				{
+					"text": "Ich komme gleich mit Lilli! (Hned přijdu i s Lilli!)",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Danke, Frau Keller!",
+							"next": -1
+						}
+					],
+					"requires": "lilli_comes"
+				},
+				{
+					"text": "Guten Tag! Willkommen im Tierheim. Was möchtest du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Hoppel möchte einen Käfig.",
+							"next": 3
+						},
+						{
+							"text": "Hoppel ist allein. Er möchte einen Freund.",
+							"next": 4
+						}
+					],
+					"requires": "knows_wishes"
+				},
+				{
+					"text": "Frau Keller se zamračí: klece králíkům nedává. „Käfig“ je klec. Co si Hoppel doopravdy přeje?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Ein Freund für Hoppel, sehr gut! Das ist Lilli. Lilli ist auch allein. Aber Kaninchen brauchen viel Platz. Was möchte Hoppel machen?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Hoppel möchte laufen.",
+							"next": 6
+						},
+						{
+							"text": "Hoppel möchte schlafen.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "„Schlafen? Nur schlafen?“ Frau Keller se ptá, jestli budou mít králíci dost místa. Co chtěl Hoppel dělat, když je klec „zu klein“?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 4
+						}
+					]
+				},
+				{
+					"text": "Gut! Zwei Kaninchen, viel Platz, Heu und Wasser. Und bitte: nicht auf den Arm nehmen!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Králíky máme často nosit v náruči?",
+							"next": 7
+						},
+						{
+							"text": "Králíky nemáme brát do náruče?",
+							"next": 8
+						}
+					]
+				},
+				{
+					"text": "„Nein, nein! Nicht auf den Arm!“ Frau Keller ukáže na tabuli o králících. „Nicht“ znamená ne.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 6
+						}
+					]
+				},
+				{
+					"text": "Genau! Ich komme mit Lilli zu Paul. Bis gleich!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke! Bis gleich! (Za chvíli na viděnou!)",
+							"next": -1,
+							"sets": "lilli_comes"
+						}
+					]
+				}
+			]
+		}
+	],
+	"items": [
+		{
+			"id": "workbook",
+			"name": "Paulův sešit se slovíčky",
+			"place": "garden",
+			"pos": [
+				3,
+				8.8
+			],
+			"color": "#4bacc6",
+			"description": "ich möchte = chci   ich möchte nicht = nechci\nessen = jíst   trinken = pít   schlafen = spát   laufen = běhat   spielen = hrát si\ndas Heu = seno   das Wasser = voda   der Käfig = klec\nder Freund = kamarád   die Freundin = kamarádka\nzu klein = moc malý   zu groß = moc velký   allein = sám   viel Platz = hodně místa\nauf den Arm = do náruče   Ich habe Angst. = Mám strach.\ndas Kaninchen = králík   das Tierheim = útulek pro zvířata"
+		},
+		{
+			"id": "rabbit_board",
+			"name": "Tabule o králících",
+			"place": "shelter",
+			"pos": [
+				-3.5,
+				3
+			],
+			"color": "#9bbb59",
+			"description": "Kaninchen brauchen Freunde, Platz, Heu und Wasser.\nKrálík není rád sám: potřebuje druhého králíka.\nPotřebuje hodně místa na běhání a skákání, malá klec nestačí.\nJí hlavně seno a potřebuje čerstvou vodu.\nVětšina králíků se bojí, když je někdo zvedne ze země. Sedni si k nim a počkej, až přijdou sami."
+		}
+	]
+}
