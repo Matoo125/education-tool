@@ -1,0 +1,868 @@
+{
+	"title": "Leise, bitte!",
+	"intro": "U lesa stojí záchranná stanice pro divoká zvířata. Dnes z lesa někdo volá o pomoc, ale ochránkyně přírody Anna nemůže odejít od telefonu. Zjistíš, co se stalo?",
+	"goal": "Zjisti, kdo v lese potřebuje pomoc, a přiveď veterinářku. Pomalu a potichu!",
+	"start_place": "forest",
+	"start_pos": [
+		-2.5,
+		-5
+	],
+	"places": [
+		{
+			"id": "forest",
+			"name": "Les u stanice",
+			"size": 38,
+			"ground": "#5f9a52",
+			"weather": "cloudy",
+			"props": [
+				{
+					"kind": "house",
+					"pos": [
+						0,
+						-13
+					],
+					"color": "#9cc3e0"
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-3,
+						-9.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						3,
+						-9.5
+					]
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						6,
+						-9
+					],
+					"rot": -90
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-4,
+						-11.5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-16,
+						-16
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-9,
+						-17
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						9,
+						-17
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						16,
+						-15
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						17.5,
+						-7
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-17.5,
+						-8
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						17,
+						1
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-17,
+						0
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						17.5,
+						9
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-17.5,
+						9
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-15,
+						16
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-6,
+						17.5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						3,
+						17
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						17,
+						17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-12,
+						-4
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-5,
+						6
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						3,
+						3
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						12,
+						-3
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-12,
+						11
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						2,
+						11
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						13,
+						7
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						13.5,
+						14.5
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						9,
+						15.5
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						14,
+						11
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						11.5,
+						16.5
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						-8,
+						-9
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						-14,
+						5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-3,
+						0
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						6,
+						7
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-9,
+						14
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						9,
+						-7
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-14,
+						-12
+					]
+				},
+				{
+					"kind": "rabbit",
+					"pos": [
+						-6,
+						10
+					],
+					"rot": 45,
+					"color": "#c9b8a6"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						0,
+						-10.4
+					],
+					"to": "station",
+					"label": "Záchranná stanice"
+				}
+			]
+		},
+		{
+			"id": "station",
+			"name": "Záchranná stanice",
+			"indoor": true,
+			"size": 14,
+			"props": [
+				{
+					"kind": "shelf",
+					"pos": [
+						-4,
+						-6.2
+					]
+				},
+				{
+					"kind": "shelf",
+					"pos": [
+						4,
+						-6.2
+					]
+				},
+				{
+					"kind": "table",
+					"pos": [
+						0,
+						-5
+					],
+					"color": "#d9c7a3"
+				},
+				{
+					"kind": "table",
+					"pos": [
+						-5,
+						1
+					],
+					"rot": 90,
+					"color": "#d9c7a3"
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						5.6,
+						-3
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						5.6,
+						-1.8
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						5.6,
+						2
+					]
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						4.5,
+						4.5
+					],
+					"rot": -90
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						5.5,
+						5.8
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-5.5,
+						5.8
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-5.8,
+						-5.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						5.8,
+						-5.8
+					]
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						0,
+						6.6
+					],
+					"rot": 180,
+					"to": "forest",
+					"label": "Les"
+				}
+			]
+		}
+	],
+	"characters": [
+		{
+			"id": "anna",
+			"name": "Anna",
+			"place": "forest",
+			"pos": [
+				3,
+				-6
+			],
+			"color": "#2c6e2f",
+			"lines": [
+				{
+					"text": "Ahoj, já jsem Anna ze záchranné stanice. Sova Frieda v lese volá „Hilfe!“, tedy pomoc, ale já musím zůstat u telefonu. Vezmi si můj lesní zápisník, leží tady u mě, a běž se jí zeptat.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Jdu na to!",
+							"next": -1
+						}
+					],
+					"unless": "notebook"
+				},
+				{
+					"text": "Našla se liška? Tak rychle za doktorkou Sommer do stanice! Mluví německy, ale ty už víš, co říct.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Už jdu!",
+							"next": -1
+						}
+					],
+					"requires": "found_fox"
+				},
+				{
+					"text": "Sova Frieda sedí kousek odtud mezi stromy. A pamatuj: v lese jsme hosté. Chodíme langsam und leise, pomalu a potichu.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Langsam und leise. Rozumím!",
+							"next": -1
+						}
+					],
+					"requires": "notebook"
+				}
+			]
+		},
+		{
+			"id": "owl",
+			"name": "Eule Frieda",
+			"place": "forest",
+			"pos": [
+				-9,
+				2
+			],
+			"color": "#8a6a4a",
+			"look": "owl",
+			"lines": [
+				{
+					"text": "Schuhu! Hilfe! Hilfe!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi Annin lesní zápisník.)",
+							"next": -1
+						}
+					],
+					"unless": "notebook"
+				},
+				{
+					"text": "Schuhu! Der Fuchs ist dort, bei den Steinen. Geh langsam und leise!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Danke, Frieda!",
+							"next": -1
+						}
+					],
+					"requires": "knows_fox"
+				},
+				{
+					"text": "Schuhu! Hilfe! Der kleine Fuchs ist dort, bei den Steinen. Sein Bein tut weh!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Malou lišku bolí hlava?",
+							"next": 3
+						},
+						{
+							"text": "Malou lišku bolí noha?",
+							"next": 4
+						},
+						{
+							"text": "Malou lišku bolí ucho?",
+							"next": 3
+						}
+					],
+					"requires": "notebook"
+				},
+				{
+					"text": "Frieda zamává křídly: „Nein! Sein Bein!“ Hlava je „der Kopf“ a ucho „das Ohr“. Najdi v zápisníku slovo „Bein“.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Ja! Aber Achtung: Der Fuchs hat Angst. Geh langsam und leise!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Mám běžet rychle a hlasitě volat?",
+							"next": 5
+						},
+						{
+							"text": "Mám jít pomalu a potichu?",
+							"next": 6
+						}
+					]
+				},
+				{
+					"text": "„Nein, nein!“ Rychle a nahlas je „schnell und laut“. Frieda řekla „langsam und leise“, protože liška má strach: „Der Fuchs hat Angst.“",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 4
+						}
+					]
+				},
+				{
+					"text": "Ja, genau! Der Fuchs ist bei den Steinen. (Frieda ukazuje křídlem ke kamenům na druhém konci lesa.)",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke, Frieda!",
+							"next": -1,
+							"sets": "knows_fox"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "max",
+			"name": "Max",
+			"place": "forest",
+			"pos": [
+				7,
+				4
+			],
+			"color": "#d9577a",
+			"lines": [
+				{
+					"text": "LA LA LA! ICH BIN MAX! ICH SINGE LAUT!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Max zpívá hodně nahlas. Zatím nevíš, komu by to mohlo vadit.)",
+							"next": -1
+						}
+					],
+					"unless": "knows_fox"
+				},
+				{
+					"text": "Pssst! Ich bin jetzt leise. (Max šeptá.)",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Danke, Max!",
+							"next": -1
+						}
+					],
+					"requires": "quiet"
+				},
+				{
+					"text": "LA LA LA! ICH SINGE LAUT!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Lauter, bitte!",
+							"next": 3
+						},
+						{
+							"text": "Leise, bitte! Der Fuchs hat Angst.",
+							"next": 4
+						}
+					],
+					"requires": "knows_fox"
+				},
+				{
+					"text": "Max začne zpívat ještě hlasitěji! „Lauter“ znamená hlasitěji. Jak se německy řekne potichu?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Oh! Ein Fuchs? Entschuldigung! Ich bin jetzt leise.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke, Max! (Entschuldigung znamená promiň.)",
+							"next": -1,
+							"sets": "quiet"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fox",
+			"name": "Kleiner Fuchs",
+			"place": "forest",
+			"pos": [
+				11,
+				13
+			],
+			"color": "#d9772e",
+			"look": "fox",
+			"lines": [
+				{
+					"text": "(Mezi kameny se něco pohnulo a schovalo. Nejdřív zjisti od sovy, co se tu stalo.)",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Necháš to být a jdeš za sovou.)",
+							"next": -1
+						}
+					],
+					"unless": "knows_fox"
+				},
+				{
+					"text": "(Liška klidně leží mezi kameny a čeká.) Danke...",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Ich hole Hilfe! (Přivedu pomoc!)",
+							"next": -1
+						}
+					],
+					"requires": "found_fox"
+				},
+				{
+					"text": "(Liška je schovaná mezi kameny a nevyleze. V lese je moc hluku. Kdo to tu tak zpívá?)",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Jdeš zjistit, kdo dělá hluk.)",
+							"next": -1
+						}
+					],
+					"unless": "quiet"
+				},
+				{
+					"text": "(Malá liška se na tebe dívá a třese se.) Ich habe Angst...",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Rychle k ní běžíš.) Komm her!",
+							"next": 4
+						},
+						{
+							"text": "(Pomalu si sedneš opodál.) Keine Angst. Ich bin leise.",
+							"next": 6
+						},
+						{
+							"text": "(Zkusíš ji vzít do náruče.)",
+							"next": 5
+						}
+					],
+					"requires": "quiet"
+				},
+				{
+					"text": "Liška se přikrčí ještě víc. Divoké zvíře se bojí rychlých pohybů a hluku. Jak to říkala sova? Langsam und leise.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Stop! Zraněné divoké zvíře se nebere do rukou: bojí se, bolí ho to a může kousnout. Zůstaň opodál a buď potichu.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Mein Bein tut weh. Und ich habe Angst.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Bolí tě nos a máš hlad?",
+							"next": 7
+						},
+						{
+							"text": "Bolí tě noha a máš strach?",
+							"next": 8
+						}
+					]
+				},
+				{
+					"text": "Liška zavrtí hlavou. Řekla: „Mein Bein tut weh. Ich habe Angst.“ Najdi „Bein“ a „Angst“ v zápisníku.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 6
+						}
+					]
+				},
+				{
+					"text": "Ja... Hilfst du mir? (Pomůžeš mi?)",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Ja! Ich hole Hilfe. (Ano! Přivedu pomoc.)",
+							"next": -1,
+							"sets": "found_fox"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "vet",
+			"name": "Dr. Sommer",
+			"place": "station",
+			"pos": [
+				0,
+				-2
+			],
+			"color": "#7b5ea7",
+			"lines": [
+				{
+					"text": "Guten Tag! Ich bin Doktor Sommer, die Tierärztin. Brauchst du Hilfe?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Zatím nevíš, co říct. Nejdřív zjisti, co se v lese stalo.)",
+							"next": -1
+						}
+					],
+					"unless": "found_fox"
+				},
+				{
+					"text": "Guten Tag! Ich bin Doktor Sommer, die Tierärztin. Was ist los?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Hilfe! Eine kleine Eule ist im Wald.",
+							"next": 2
+						},
+						{
+							"text": "Hilfe! Ein kleiner Fuchs ist im Wald.",
+							"next": 3
+						}
+					],
+					"requires": "found_fox"
+				},
+				{
+					"text": "Dr. Sommer se diví: sovy přece v lese bydlí. „Eule“ je sova. Jak se německy řekne liška?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 1
+						}
+					]
+				},
+				{
+					"text": "Ein Fuchs! Was tut ihm weh?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Sein Kopf tut weh.",
+							"next": 4
+						},
+						{
+							"text": "Sein Ohr tut weh.",
+							"next": 4
+						},
+						{
+							"text": "Sein Bein tut weh.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Dr. Sommer chce vědět přesně, co lišku bolí. Liška řekla: „Mein Bein tut weh.“ Co je „Bein“?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Das Bein, gut. Und wie gehen wir zum Fuchs?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Schnell und laut.",
+							"next": 6
+						},
+						{
+							"text": "Langsam und leise.",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "„Nein, nein! Der Fuchs hat Angst.“ Jak se chodí k vystrašenému zvířeti?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Sehr gut! Danke für deine Hilfe. Komm, wir helfen dem Fuchs!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Ja, los! (Ano, jdeme!)",
+							"next": -1,
+							"ending": "Dr. Sommer ošetřila lišce nohu a za pár týdnů ji pustila zpátky do lesa, kam patří. Umíš teď německy části těla (der Kopf, das Ohr, die Nase, das Bein), říct, co bolí (Mein Bein tut weh), a slova langsam, leise, schnell a laut. A víš, že zraněnému divokému zvířeti nejvíc pomůžeš, když zůstaneš potichu opodál, nesaháš na něj a přivedeš dospělého, který zavolá pomoc."
+						}
+					]
+				}
+			]
+		}
+	],
+	"items": [
+		{
+			"id": "notebook",
+			"name": "Lesní zápisník",
+			"place": "forest",
+			"pos": [
+				1,
+				-4.2
+			],
+			"color": "#9bbb59",
+			"description": "der Kopf = hlava   das Ohr = ucho   das Auge = oko   die Nase = nos   das Bein = noha\nMein Bein tut weh. = Bolí mě noha.   Sein Bein tut weh. = Bolí ho noha.\nlangsam = pomalu   schnell = rychle   leise = potichu   laut = nahlas\nIch habe Angst. = Mám strach.   Keine Angst! = Neboj se!   Hilfe! = Pomoc!\nder Fuchs = liška   die Eule = sova   der Stein = kámen   die Tierärztin = veterinářka\nPamatuj: divoké zvíře se lidí bojí. Nesahej na něj a řekni o něm dospělému."
+		}
+	]
+}

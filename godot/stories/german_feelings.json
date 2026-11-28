@@ -1,0 +1,1234 @@
+{
+	"title": "Wie geht es dir?",
+	"intro": "V azylu Sonnenhof žijí zachráněná zvířata. Dnes tu pomáháš ošetřovatelce Tině. Zvířata ti sama řeknou, jak se cítí a co potřebují. Jenže mluví jenom německy...",
+	"goal": "Zjisti, jak se které zvíře cítí, a pomoz mu, aby bylo glücklich: šťastné.",
+	"start_place": "sanctuary",
+	"start_pos": [
+		0,
+		15
+	],
+	"places": [
+		{
+			"id": "sanctuary",
+			"name": "Azyl Sonnenhof",
+			"size": 40,
+			"props": [
+				{
+					"kind": "house",
+					"pos": [
+						-12,
+						-12
+					],
+					"color": "#f2d16b"
+				},
+				{
+					"kind": "house",
+					"pos": [
+						12,
+						-12
+					],
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "well",
+					"pos": [
+						0,
+						-4
+					]
+				},
+				{
+					"kind": "pond",
+					"pos": [
+						14,
+						11
+					]
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						-3,
+						12
+					],
+					"rot": 180
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						6,
+						-6
+					],
+					"rot": -90
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						9,
+						-9.5
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						15,
+						-9.5
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-9,
+						-9
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						3,
+						7
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-4,
+						-8
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						9.5,
+						-6
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-18,
+						-17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						18,
+						-17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						18,
+						-2
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-18,
+						-2
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-17,
+						17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						5,
+						18
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-7,
+						18
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						0,
+						-17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-6,
+						2
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						11,
+						3
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-5,
+						-17
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						5,
+						-17.5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						18,
+						17
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						10,
+						14
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						-3,
+						17
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						-15,
+						2
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-9,
+						-15
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						15,
+						-15
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-14,
+						9
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						4,
+						1
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-11,
+						15
+					]
+				},
+				{
+					"kind": "duck",
+					"pos": [
+						12,
+						14.5
+					],
+					"rot": 90,
+					"color": "#f2efe6"
+				},
+				{
+					"kind": "duck",
+					"pos": [
+						16.5,
+						8
+					],
+					"rot": -120,
+					"color": "#f2efe6"
+				},
+				{
+					"kind": "rabbit",
+					"pos": [
+						6,
+						14
+					],
+					"rot": 45,
+					"color": "#c9b8a6"
+				},
+				{
+					"kind": "rabbit",
+					"pos": [
+						-8,
+						-1
+					],
+					"rot": -60,
+					"color": "#f1efe8"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						12,
+						-9.4
+					],
+					"to": "shed",
+					"label": "Kůlna"
+				}
+			]
+		},
+		{
+			"id": "shed",
+			"name": "Kůlna",
+			"indoor": true,
+			"size": 14,
+			"props": [
+				{
+					"kind": "shelf",
+					"pos": [
+						-4,
+						-6.2
+					]
+				},
+				{
+					"kind": "shelf",
+					"pos": [
+						0,
+						-6.2
+					]
+				},
+				{
+					"kind": "shelf",
+					"pos": [
+						4,
+						-6.2
+					]
+				},
+				{
+					"kind": "shelf",
+					"pos": [
+						-6.2,
+						-1
+					],
+					"rot": 90
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						5.6,
+						-4
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						5.6,
+						-2.8
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						4.4,
+						-4.6
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-5.6,
+						3
+					]
+				},
+				{
+					"kind": "table",
+					"pos": [
+						4.5,
+						2.5
+					],
+					"rot": 90,
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						5.5,
+						5.5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-5.5,
+						5.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-5.8,
+						-5.5
+					]
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						0,
+						6.6
+					],
+					"rot": 180,
+					"to": "sanctuary",
+					"label": "Azyl Sonnenhof"
+				}
+			]
+		}
+	],
+	"characters": [
+		{
+			"id": "tina",
+			"name": "Tina",
+			"place": "sanctuary",
+			"pos": [
+				0,
+				10
+			],
+			"color": "#3f8f8b",
+			"lines": [
+				{
+					"text": "Ahoj, já jsem Tina a starám se tady o zvířata. Dnes mi pomáháš ty! Zvířata ti německy řeknou, jak se cítí. Vezmi si kartičku pocitů, leží tady vedle mě.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Vezmu si ji!",
+							"next": -1
+						}
+					],
+					"unless": "feelings_card"
+				},
+				{
+					"text": "Zeptej se každého zvířete, jak se má, a pomoz mu. Voda je u studny, seno a deka v kůlně. Tak co, jak se má ovečka Flocke?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Flocke ist glücklich.",
+							"next": 2,
+							"requires": "helped_flocke"
+						},
+						{
+							"text": "Ještě nevím, jdu se zeptat.",
+							"next": -1
+						}
+					],
+					"requires": "feelings_card"
+				},
+				{
+					"text": "Wunderbar! Und Berta?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Berta ist glücklich.",
+							"next": 3,
+							"requires": "helped_berta"
+						},
+						{
+							"text": "Ještě ne, jdu jí pomoct.",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "Sehr gut! Und Fips?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Fips ist glücklich.",
+							"next": 4,
+							"requires": "helped_fips"
+						},
+						{
+							"text": "Ještě ne, jdu mu pomoct.",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "Super! Und Minka?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Minka schläft. Sie ist glücklich.",
+							"next": 5,
+							"requires": "helped_minka"
+						},
+						{
+							"text": "Ještě ne, jdu za ní.",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "Schön! Und Henni?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Henni ist nicht allein. Sie ist glücklich.",
+							"next": 6,
+							"requires": "helped_henni"
+						},
+						{
+							"text": "Ještě ne, jdu za ní.",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "Všichni jsou glücklich, to je radost! Ještě mi pověz: Minka řekla „Ich bin müde.“ Co pro ni bylo nejlepší?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Vzít ji do náruče a hrát si s ní.",
+							"next": 7
+						},
+						{
+							"text": "Nechat ji v klidu spát.",
+							"next": 8
+						}
+					]
+				},
+				{
+					"text": "To by se jí nelíbilo. „Müde“ znamená unavená. Co potřebuješ ty, když se ti chce spát?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 6
+						}
+					]
+				},
+				{
+					"text": "Přesně tak, klid. A co ti řekla Henni svým „Ich bin traurig“?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Mám žízeň.",
+							"next": 9
+						},
+						{
+							"text": "Jsem smutná.",
+							"next": 10
+						},
+						{
+							"text": "Je mi zima.",
+							"next": 9
+						}
+					]
+				},
+				{
+					"text": "To ne. Žízeň je „Durst“ a zima je „kalt“. Henni byla sama, „allein“. Jak jí asi bylo?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 8
+						}
+					]
+				},
+				{
+					"text": "Ano, smutná. A stačilo s ní chvíli zůstat. Vielen Dank, jsi skvělá pomoc!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Gern geschehen, Tina!",
+							"next": -1,
+							"ending": "Všechna zvířata v azylu Sonnenhof jsou dnes glücklich. Umíš teď německy říct, jak se kdo cítí: Ich habe Hunger, Ich habe Durst, Mir ist kalt, Ich bin müde, Ich bin traurig, Ich bin glücklich. A víš, že zvířata cítí hlad, žízeň, zimu, únavu i samotu podobně jako my. Stačí se dívat, poslouchat a zeptat se: Was brauchst du?"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "flocke",
+			"name": "Flocke",
+			"place": "sanctuary",
+			"pos": [
+				-10,
+				7
+			],
+			"color": "#f1efe8",
+			"look": "sheep",
+			"lines": [
+				{
+					"text": "Mäh... Ich habe Durst.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi od Tiny kartičku pocitů.)",
+							"next": -1
+						}
+					],
+					"unless": "feelings_card"
+				},
+				{
+					"text": "Mäh... Danke! Ich bin glücklich!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Bitte, Flocke!",
+							"next": -1
+						}
+					],
+					"requires": "helped_flocke"
+				},
+				{
+					"text": "Mäh... Ich habe Durst. Ich brauche Wasser.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Hier ist Wasser!",
+							"next": 7,
+							"requires": "water",
+							"takes": "water",
+							"sets": "helped_flocke"
+						},
+						{
+							"text": "Hier ist Heu!",
+							"next": 6,
+							"requires": "hay"
+						},
+						{
+							"text": "Hier ist eine Decke!",
+							"next": 6,
+							"requires": "blanket"
+						},
+						{
+							"text": "Hned ti přinesu vodu od studny.",
+							"next": -1
+						}
+					],
+					"requires": "asked_flocke"
+				},
+				{
+					"text": "Mäh... Ich habe Durst.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Takže máš hlad?",
+							"next": 4
+						},
+						{
+							"text": "Takže máš žízeň?",
+							"next": 5,
+							"sets": "asked_flocke"
+						},
+						{
+							"text": "Takže je ti zima?",
+							"next": 4
+						}
+					],
+					"requires": "feelings_card"
+				},
+				{
+					"text": "Flocke smutně vrtí hlavou a opakuje: „Ich habe Durst.“ Najdi tu větu na kartičce pocitů.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Ja! Ich brauche Wasser.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Hier ist Wasser!",
+							"next": 7,
+							"requires": "water",
+							"takes": "water",
+							"sets": "helped_flocke"
+						},
+						{
+							"text": "Hier ist Heu!",
+							"next": 6,
+							"requires": "hay"
+						},
+						{
+							"text": "Hier ist eine Decke!",
+							"next": 6,
+							"requires": "blanket"
+						},
+						{
+							"text": "Hned ti přinesu vodu od studny.",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "Flocke to nechce: „Nein, danke. Ich brauche Wasser.“ Podívej se na kartičku, co to slovo znamená.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Danke! Jetzt bin ich glücklich!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Gern geschehen! (Rádo se stalo!)",
+							"next": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "berta",
+			"name": "Berta",
+			"place": "sanctuary",
+			"pos": [
+				8,
+				-1
+			],
+			"color": "#f4f4f0",
+			"look": "cow",
+			"lines": [
+				{
+					"text": "Muh... Ich habe Hunger.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi od Tiny kartičku pocitů.)",
+							"next": -1
+						}
+					],
+					"unless": "feelings_card"
+				},
+				{
+					"text": "Muh... Danke! Ich bin glücklich!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Bitte, Berta!",
+							"next": -1
+						}
+					],
+					"requires": "helped_berta"
+				},
+				{
+					"text": "Muh... Ich habe Hunger. Ich brauche Heu.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Hier ist Heu!",
+							"next": 7,
+							"requires": "hay",
+							"takes": "hay",
+							"sets": "helped_berta"
+						},
+						{
+							"text": "Hier ist Wasser!",
+							"next": 6,
+							"requires": "water"
+						},
+						{
+							"text": "Hier ist eine Decke!",
+							"next": 6,
+							"requires": "blanket"
+						},
+						{
+							"text": "Hned ti přinesu seno z kůlny.",
+							"next": -1
+						}
+					],
+					"requires": "asked_berta"
+				},
+				{
+					"text": "Muh... Ich habe Hunger.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Takže máš žízeň?",
+							"next": 4
+						},
+						{
+							"text": "Takže máš hlad?",
+							"next": 5,
+							"sets": "asked_berta"
+						},
+						{
+							"text": "Takže jsi unavená?",
+							"next": 4
+						}
+					],
+					"requires": "feelings_card"
+				},
+				{
+					"text": "Berta smutně vrtí hlavou a opakuje: „Ich habe Hunger.“ Najdi tu větu na kartičce pocitů.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Ja! Ich brauche Heu.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Hier ist Heu!",
+							"next": 7,
+							"requires": "hay",
+							"takes": "hay",
+							"sets": "helped_berta"
+						},
+						{
+							"text": "Hier ist Wasser!",
+							"next": 6,
+							"requires": "water"
+						},
+						{
+							"text": "Hier ist eine Decke!",
+							"next": 6,
+							"requires": "blanket"
+						},
+						{
+							"text": "Hned ti přinesu seno z kůlny.",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "Berta to nechce: „Nein, danke. Ich brauche Heu.“ Podívej se na kartičku, co to slovo znamená.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Danke! Jetzt bin ich glücklich!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Gern geschehen! (Rádo se stalo!)",
+							"next": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fips",
+			"name": "Fips",
+			"place": "sanctuary",
+			"pos": [
+				-8,
+				-5
+			],
+			"color": "#a0703c",
+			"look": "dog",
+			"lines": [
+				{
+					"text": "Wuff... Mir ist kalt.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi od Tiny kartičku pocitů.)",
+							"next": -1
+						}
+					],
+					"unless": "feelings_card"
+				},
+				{
+					"text": "Wuff... Danke! Ich bin glücklich!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Bitte, Fips!",
+							"next": -1
+						}
+					],
+					"requires": "helped_fips"
+				},
+				{
+					"text": "Wuff... Mir ist kalt. Ich brauche eine Decke.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Hier ist eine Decke!",
+							"next": 7,
+							"requires": "blanket",
+							"takes": "blanket",
+							"sets": "helped_fips"
+						},
+						{
+							"text": "Hier ist Wasser!",
+							"next": 6,
+							"requires": "water"
+						},
+						{
+							"text": "Hier ist Heu!",
+							"next": 6,
+							"requires": "hay"
+						},
+						{
+							"text": "Hned ti přinesu deku z kůlny.",
+							"next": -1
+						}
+					],
+					"requires": "asked_fips"
+				},
+				{
+					"text": "Wuff... Mir ist kalt.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Takže máš žízeň?",
+							"next": 4
+						},
+						{
+							"text": "Takže je ti zima?",
+							"next": 5,
+							"sets": "asked_fips"
+						},
+						{
+							"text": "Takže jsi smutný?",
+							"next": 4
+						}
+					],
+					"requires": "feelings_card"
+				},
+				{
+					"text": "Fips smutně vrtí hlavou a opakuje: „Mir ist kalt.“ Najdi tu větu na kartičce pocitů.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 3
+						}
+					]
+				},
+				{
+					"text": "Ja! Ich brauche eine Decke.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Hier ist eine Decke!",
+							"next": 7,
+							"requires": "blanket",
+							"takes": "blanket",
+							"sets": "helped_fips"
+						},
+						{
+							"text": "Hier ist Wasser!",
+							"next": 6,
+							"requires": "water"
+						},
+						{
+							"text": "Hier ist Heu!",
+							"next": 6,
+							"requires": "hay"
+						},
+						{
+							"text": "Hned ti přinesu deku z kůlny.",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "Fips to nechce: „Nein, danke. Ich brauche eine Decke.“ Podívej se na kartičku, co to slovo znamená.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Danke! Jetzt bin ich glücklich!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Gern geschehen! (Rádo se stalo!)",
+							"next": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "minka",
+			"name": "Minka",
+			"place": "sanctuary",
+			"pos": [
+				4,
+				-11
+			],
+			"color": "#e08a3c",
+			"look": "cat",
+			"lines": [
+				{
+					"text": "Miau... Ich bin müde.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi od Tiny kartičku pocitů.)",
+							"next": -1
+						}
+					],
+					"unless": "feelings_card"
+				},
+				{
+					"text": "(Minka klidně spí. Pssst!)",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Necháš ji spát.)",
+							"next": -1
+						}
+					],
+					"requires": "helped_minka"
+				},
+				{
+					"text": "Miau... Ich bin müde.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Takže jsi smutná?",
+							"next": 3
+						},
+						{
+							"text": "Takže jsi unavená?",
+							"next": 4
+						},
+						{
+							"text": "Takže máš hlad?",
+							"next": 3
+						}
+					],
+					"requires": "feelings_card"
+				},
+				{
+					"text": "Minka zívne a zavře oči. Řekla ti: „Ich bin müde.“ Najdi tu větu na kartičce pocitů.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Ja. Ich brauche Ruhe.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Komm, wir spielen! (Pojď, budeme si hrát!)",
+							"next": 5
+						},
+						{
+							"text": "Gut. Schlaf gut! (Dobře. Hezky se vyspi!)",
+							"next": 6,
+							"sets": "helped_minka"
+						}
+					]
+				},
+				{
+					"text": "Minka se odvrátí a stočí se do klubíčka. Řekla „Ich brauche Ruhe“: potřebuje klid. Unavené zvíře si hrát nechce.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 4
+						}
+					]
+				},
+				{
+					"text": "(Minka zavře oči a spokojeně přede.)",
+					"opens": false,
+					"choices": [
+						{
+							"text": "(Potichu odejdeš.)",
+							"next": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "henni",
+			"name": "Henni",
+			"place": "sanctuary",
+			"pos": [
+				-13,
+				13
+			],
+			"color": "#c98a4b",
+			"look": "chicken",
+			"lines": [
+				{
+					"text": "Gack... Ich bin traurig. Ich bin allein.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Nerozumíš. Nejdřív si vezmi od Tiny kartičku pocitů.)",
+							"next": -1
+						}
+					],
+					"unless": "feelings_card"
+				},
+				{
+					"text": "Gack, gack! Ich bin nicht allein. Ich bin glücklich!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Das ist schön, Henni!",
+							"next": -1
+						}
+					],
+					"requires": "helped_henni"
+				},
+				{
+					"text": "Gack... Ich bin traurig. Ich bin allein.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Takže máš hlad?",
+							"next": 3
+						},
+						{
+							"text": "Takže jsi smutná, protože jsi sama?",
+							"next": 4
+						},
+						{
+							"text": "Takže jsi unavená?",
+							"next": 3
+						}
+					],
+					"requires": "feelings_card"
+				},
+				{
+					"text": "Henni svěsí hlavu. Řekla ti: „Ich bin traurig. Ich bin allein.“ Najdi obě věty na kartičce pocitů.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Ja. Bleibst du bei mir? (Zůstaneš se mnou?)",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Nein, ich habe keine Zeit. (Ne, nemám čas.)",
+							"next": 5
+						},
+						{
+							"text": "Ja, ich bleibe bei dir. (Ano, zůstanu s tebou.)",
+							"next": 6,
+							"sets": "helped_henni"
+						}
+					]
+				},
+				{
+					"text": "Henni svěsí křídla. Slepice nerady bývají samy. Stačí chvilka: zkus s ní na chvíli zůstat.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 4
+						}
+					]
+				},
+				{
+					"text": "Danke! Jetzt bin ich nicht allein. Ich bin glücklich!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "(Chvíli si k Henni sedneš do trávy.)",
+							"next": -1
+						}
+					]
+				}
+			]
+		}
+	],
+	"items": [
+		{
+			"id": "feelings_card",
+			"name": "Kartička pocitů",
+			"place": "sanctuary",
+			"pos": [
+				2.5,
+				11.5
+			],
+			"color": "#f2c14e",
+			"description": "Wie geht es dir? = Jak se máš?\nIch habe Hunger. = Mám hlad.   Ich habe Durst. = Mám žízeň.\nMir ist kalt. = Je mi zima.   Ich bin müde. = Jsem unavený / unavená.\nIch bin traurig. = Jsem smutný / smutná.   Ich bin allein. = Jsem sám / sama.\nIch bin glücklich. = Jsem šťastný / šťastná.\nWas brauchst du? = Co potřebuješ?   Ich brauche ... = Potřebuji ...\ndas Wasser = voda   das Heu = seno   die Decke = deka   die Ruhe = klid"
+		},
+		{
+			"id": "water",
+			"name": "Wasser (kbelík vody)",
+			"place": "sanctuary",
+			"pos": [
+				2.8,
+				-4
+			],
+			"color": "#4bacc6",
+			"description": "Kbelík čerstvé vody ze studny. Das Wasser = voda. Kdo má žízeň, říká: Ich habe Durst."
+		},
+		{
+			"id": "hay",
+			"name": "Heu (seno)",
+			"place": "shed",
+			"pos": [
+				-3,
+				-2
+			],
+			"color": "#d9b84a",
+			"description": "Náruč voňavého sena. Das Heu = seno. Kdo má hlad, říká: Ich habe Hunger."
+		},
+		{
+			"id": "blanket",
+			"name": "Decke (deka)",
+			"place": "shed",
+			"pos": [
+				2.5,
+				-2
+			],
+			"color": "#c0504d",
+			"description": "Měkká teplá deka. Die Decke = deka. Komu je zima, říká: Mir ist kalt."
+		}
+	]
+}
