@@ -1,16 +1,16 @@
 {
 	"title": "Wo ist Bello?",
-	"intro": "Leně utekl ze statku pes Bello! Zvířata na statku viděla, kam běžel, a ráda pomůžou. Jenže mluví jenom německy...",
+	"intro": "Lena se stará o azyl, kde zachráněná zvířata žijí v klidu a bezpečí. Dnes jí odtud utekl pes Bello! Ostatní zvířata viděla, kam běžel, a ráda pomůžou. Jenže mluví jenom německy...",
 	"goal": "Zjisti od zvířat, jak Bello vypadá a kde je, a pak to řekni Leně.",
-	"start_place": "farm",
+	"start_place": "sanctuary",
 	"start_pos": [
 		0,
 		13
 	],
 	"places": [
 		{
-			"id": "farm",
-			"name": "Statek u Leny",
+			"id": "sanctuary",
+			"name": "Zvířecí azyl u Leny",
 			"size": 40,
 			"props": [
 				{
@@ -614,8 +614,8 @@
 						17
 					],
 					"rot": 180,
-					"to": "farm",
-					"label": "Statek u Leny"
+					"to": "sanctuary",
+					"label": "Zvířecí azyl u Leny"
 				}
 			]
 		}
@@ -624,7 +624,7 @@
 		{
 			"id": "lena",
 			"name": "Lena",
-			"place": "farm",
+			"place": "sanctuary",
 			"pos": [
 				-2,
 				9
@@ -750,7 +750,7 @@
 		{
 			"id": "cow",
 			"name": "Klara",
-			"place": "farm",
+			"place": "sanctuary",
 			"pos": [
 				7,
 				-2
@@ -814,7 +814,7 @@
 		{
 			"id": "sheep",
 			"name": "Wolli",
-			"place": "farm",
+			"place": "sanctuary",
 			"pos": [
 				-11,
 				7
@@ -874,7 +874,7 @@
 		{
 			"id": "duck",
 			"name": "Emma",
-			"place": "farm",
+			"place": "sanctuary",
 			"pos": [
 				8,
 				6
@@ -923,7 +923,7 @@
 					]
 				},
 				{
-					"text": "Ja! Im Wald. Quak! (Emma ukazuje zobákem na branku na druhém konci statku.)",
+					"text": "Ja! Im Wald. Quak! (Emma ukazuje zobákem na branku na druhém konci azylu.)",
 					"opens": false,
 					"choices": [
 						{
@@ -988,7 +988,7 @@
 					"opens": true,
 					"choices": [
 						{
-							"text": "(Je tohle Bello? Ještě nevíš, jak Bello vypadá. Zeptej se zvířat na statku.)",
+							"text": "(Je tohle Bello? Ještě nevíš, jak Bello vypadá. Zeptej se zvířat v azylu.)",
 							"next": -1
 						}
 					],
@@ -1037,7 +1037,7 @@
 					"opens": true,
 					"choices": [
 						{
-							"text": "(Je tohle Bello? Ještě nevíš, jak Bello vypadá. Zeptej se zvířat na statku.)",
+							"text": "(Je tohle Bello? Ještě nevíš, jak Bello vypadá. Zeptej se zvířat v azylu.)",
 							"next": -1
 						}
 					],
@@ -1086,7 +1086,7 @@
 					"opens": true,
 					"choices": [
 						{
-							"text": "(Je tohle Bello? Ještě nevíš, jak Bello vypadá. Zeptej se zvířat na statku.)",
+							"text": "(Je tohle Bello? Ještě nevíš, jak Bello vypadá. Zeptej se zvířat v azylu.)",
 							"next": -1
 						}
 					],
@@ -1136,7 +1136,7 @@
 		{
 			"id": "dictionary",
 			"name": "Obrázkový slovník",
-			"place": "farm",
+			"place": "sanctuary",
 			"pos": [
 				0.5,
 				10

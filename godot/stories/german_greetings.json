@@ -259,22 +259,22 @@
 					"color": "#3a3a3a"
 				},
 				{
-					"kind": "chicken",
+					"kind": "rabbit",
 					"pos": [
 						-11,
 						13.5
 					],
 					"rot": 40,
-					"color": "#f4f1ea"
+					"color": "#c9b8a6"
 				},
 				{
-					"kind": "chicken",
+					"kind": "duck",
 					"pos": [
-						-8.5,
-						13.2
+						3,
+						-4
 					],
-					"rot": -70,
-					"color": "#c98a4b"
+					"rot": 90,
+					"color": "#f2efe6"
 				}
 			],
 			"doors": [

@@ -238,31 +238,26 @@
 					]
 				},
 				{
-					"kind": "chicken",
-					"pos": [
-						13,
-						2
-					],
-					"rot": 30,
-					"color": "#f4f1ea"
-				},
-				{
-					"kind": "chicken",
+					"kind": "tree",
 					"pos": [
 						14.5,
-						0.5
-					],
-					"rot": -60,
-					"color": "#c98a4b"
+						1.5
+					]
 				},
 				{
-					"kind": "chicken",
+					"kind": "plant",
 					"pos": [
 						12.5,
-						4
+						3.5
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						13,
+						-2
 					],
-					"rot": 120,
-					"color": "#f4f1ea"
+					"color": "#8a6a4a"
 				},
 				{
 					"kind": "table",
@@ -288,34 +283,33 @@
 					]
 				},
 				{
-					"kind": "fence",
+					"kind": "plant",
 					"pos": [
-						-15,
+						-13,
 						9.5
 					]
 				},
 				{
-					"kind": "fence",
-					"pos": [
-						-15,
-						15
-					]
-				},
-				{
-					"kind": "fence",
-					"pos": [
-						-12,
-						15
-					]
-				},
-				{
-					"kind": "cow",
+					"kind": "plant",
 					"pos": [
 						-14.5,
-						12.5
+						12
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-12.5,
+						14.5
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-11,
+						11
 					],
-					"rot": 60,
-					"color": "#f4f4f0"
+					"color": "#d9c7a3"
 				},
 				{
 					"kind": "bench",
@@ -523,13 +517,13 @@
 					"requires": "shopping_list"
 				},
 				{
-					"text": "Danke! A co Eier?",
+					"text": "Danke! A co Nüsse?",
 					"opens": false,
 					"choices": [
 						{
-							"text": "Hier sind sechs Eier.",
+							"text": "Hier sind sechs Nüsse.",
 							"next": 4,
-							"requires": "eggs"
+							"requires": "nuts"
 						},
 						{
 							"text": "Ještě ne. Hned jsem zpátky!",
@@ -542,9 +536,9 @@
 					"opens": false,
 					"choices": [
 						{
-							"text": "Hier ist die Milch.",
+							"text": "Hier ist die Hafermilch.",
 							"next": 5,
-							"requires": "milk"
+							"requires": "oat_milk"
 						},
 						{
 							"text": "Ještě ne. Hned jsem zpátky!",
@@ -553,7 +547,7 @@
 					]
 				},
 				{
-					"text": "To je všechno! Teď mi pomoz péct. Kolik vajec patří do koláče? Řekni to německy!",
+					"text": "To je všechno! Teď mi pomoz péct. Kolik ořechů patří na koláč? Řekni to německy!",
 					"opens": false,
 					"choices": [
 						{
@@ -571,7 +565,7 @@
 					]
 				},
 				{
-					"text": "Hm, spočítáme vejce spolu: eins, zwei, drei, vier, fünf, ... a ještě jedno. Co následuje po fünf?",
+					"text": "Hm, spočítáme ořechy spolu: eins, zwei, drei, vier, fünf, ... a ještě jedno. Co následuje po fünf?",
 					"opens": false,
 					"choices": [
 						{
@@ -581,11 +575,11 @@
 					]
 				},
 				{
-					"text": "Genau, sechs! A co nakrájím na plátky navrch koláče?",
+					"text": "Genau, sechs! A co nakrájím na plátky do koláče?",
 					"opens": false,
 					"choices": [
 						{
-							"text": "Die Eier.",
+							"text": "Die Nüsse.",
 							"next": 8
 						},
 						{
@@ -593,7 +587,7 @@
 							"next": 9
 						},
 						{
-							"text": "Die Milch.",
+							"text": "Die Hafermilch.",
 							"next": 8
 						}
 					]
@@ -615,7 +609,7 @@
 						{
 							"text": "Bitte, Ben!",
 							"next": -1,
-							"ending": "Benův Apfelkuchen byl hvězdou městské slavnosti a celý nákup se ti povedl německy. Teď už umíš čísla od eins do zehn, slova Äpfel, Eier a Milch a víš, jak si o něco zdvořile říct: Ich möchte ..., bitte."
+							"ending": "Benův Apfelkuchen byl hvězdou městské slavnosti a celý nákup se ti povedl německy. Teď už umíš čísla od eins do zehn, slova Äpfel, Nüsse a Hafermilch a víš, jak si o něco zdvořile říct: Ich möchte ..., bitte."
 						}
 					]
 				}
@@ -666,7 +660,7 @@
 							"next": 5
 						},
 						{
-							"text": "Ich möchte drei Eier, bitte.",
+							"text": "Ich möchte drei Nüsse, bitte.",
 							"next": 4
 						}
 					],
@@ -683,7 +677,7 @@
 					]
 				},
 				{
-					"text": "Frau Schmidt vrtí hlavou: „Eier? Ich habe keine Eier!“ Eier jsou vejce, a tohle je stánek s ovocem.",
+					"text": "Frau Schmidt vrtí hlavou: „Nüsse? Ich habe keine Nüsse!“ Nüsse jsou ořechy, a tohle je stánek s jablky.",
 					"opens": false,
 					"choices": [
 						{
@@ -730,7 +724,7 @@
 			]
 		},
 		{
-			"id": "egg_seller",
+			"id": "nut_seller",
 			"name": "Herr Yilmaz",
 			"place": "market",
 			"pos": [
@@ -751,26 +745,26 @@
 					"unless": "shopping_list"
 				},
 				{
-					"text": "Hallo! Vorsicht mit den Eiern!",
+					"text": "Hallo! Die Nüsse sind aus meinem Garten!",
 					"opens": true,
 					"choices": [
 						{
-							"text": "Ja! (Vorsicht znamená opatrně. Neseš vejce velmi opatrně.)",
+							"text": "Danke! (Aus meinem Garten: z mé zahrady.)",
 							"next": -1
 						}
 					],
-					"requires": "eggs"
+					"requires": "nuts"
 				},
 				{
 					"text": "Hallo! Was möchtest du?",
 					"opens": true,
 					"choices": [
 						{
-							"text": "Ich möchte sieben Eier, bitte.",
+							"text": "Ich möchte sieben Nüsse, bitte.",
 							"next": 3
 						},
 						{
-							"text": "Ich möchte sechs Eier, bitte.",
+							"text": "Ich möchte sechs Nüsse, bitte.",
 							"next": 5
 						},
 						{
@@ -781,7 +775,7 @@
 					"requires": "shopping_list"
 				},
 				{
-					"text": "Herr Yilmaz odpočítá sedm vajec. O jedno víc! „Sechs“ i „sieben“ začínají na s. Které z nich je šest?",
+					"text": "Herr Yilmaz odpočítá sedm ořechů. O jeden víc! „Sechs“ i „sieben“ začínají na s. Které z nich je šest?",
 					"opens": false,
 					"choices": [
 						{
@@ -791,7 +785,7 @@
 					]
 				},
 				{
-					"text": "Herr Yilmaz ukazuje přes náměstí: „Äpfel? Dort, bei Frau Schmidt!“ On prodává Eier, vejce.",
+					"text": "Herr Yilmaz ukazuje přes náměstí: „Äpfel? Dort, bei Frau Schmidt!“ On prodává Nüsse, ořechy.",
 					"opens": false,
 					"choices": [
 						{
@@ -801,7 +795,7 @@
 					]
 				},
 				{
-					"text": "Sechs Eier, bitte schön! Das macht drei Euro.",
+					"text": "Sechs Nüsse, bitte schön! Das macht drei Euro.",
 					"opens": false,
 					"choices": [
 						{
@@ -825,20 +819,20 @@
 					]
 				},
 				{
-					"text": "Danke! Hier sind deine Eier. Vorsicht!",
+					"text": "Danke! Hier sind deine Nüsse.",
 					"opens": false,
 					"choices": [
 						{
 							"text": "Danke! Tschüss!",
 							"next": -1,
-							"gives": "eggs"
+							"gives": "nuts"
 						}
 					]
 				}
 			]
 		},
 		{
-			"id": "milk_seller",
+			"id": "oat_milk_seller",
 			"name": "Frau Weber",
 			"place": "market",
 			"pos": [
@@ -859,7 +853,7 @@
 					"unless": "shopping_list"
 				},
 				{
-					"text": "Hallo! Die Milch ist ganz frisch!",
+					"text": "Hallo! Die Hafermilch ist ganz frisch!",
 					"opens": true,
 					"choices": [
 						{
@@ -867,7 +861,7 @@
 							"next": -1
 						}
 					],
-					"requires": "milk"
+					"requires": "oat_milk"
 				},
 				{
 					"text": "Guten Tag! Was möchtest du?",
@@ -878,18 +872,18 @@
 							"next": 3
 						},
 						{
-							"text": "Ich möchte eine Flasche Milch, bitte.",
+							"text": "Ich möchte eine Flasche Hafermilch, bitte.",
 							"next": 5
 						},
 						{
-							"text": "Ich möchte acht Flaschen Milch, bitte.",
+							"text": "Ich möchte acht Flaschen Hafermilch, bitte.",
 							"next": 4
 						}
 					],
 					"requires": "shopping_list"
 				},
 				{
-					"text": "„Brot? Ich habe kein Brot.“ Frau Weber ukáže na svou krávu. Brot je chléb; ona prodává to, co dává kráva.",
+					"text": "„Brot? Ich habe kein Brot.“ Frau Weber ukáže na své lahve. Brot je chléb; ona vyrábí Hafermilch, mléko z ovsa.",
 					"opens": false,
 					"choices": [
 						{
@@ -909,7 +903,7 @@
 					]
 				},
 				{
-					"text": "Eine Flasche Milch, gern! Das macht einen Euro.",
+					"text": "Eine Flasche Hafermilch, gern! Das macht einen Euro.",
 					"opens": false,
 					"choices": [
 						{
@@ -933,13 +927,13 @@
 					]
 				},
 				{
-					"text": "Danke schön! Hier ist deine Milch.",
+					"text": "Danke schön! Hier ist deine Hafermilch.",
 					"opens": false,
 					"choices": [
 						{
 							"text": "Danke! Tschüss!",
 							"next": -1,
-							"gives": "milk"
+							"gives": "oat_milk"
 						}
 					]
 				}
@@ -956,7 +950,7 @@
 				5
 			],
 			"color": "#f4f1ea",
-			"description": "Für den Apfelkuchen (na jablečný koláč):\n- drei Äpfel\n- sechs Eier\n- eine Flasche Milch\n\nIch möchte ..., bitte. = Chci ..., prosím. (zdvořile: Chtěl nebo chtěla bych ...)"
+			"description": "Für den Apfelkuchen (na jablečný koláč):\n- drei Äpfel\n- sechs Nüsse\n- eine Flasche Hafermilch\n\nIch möchte ..., bitte. = Chci ..., prosím. (zdvořile: Chtěl nebo chtěla bych ...)"
 		},
 		{
 			"id": "number_chart",
@@ -978,7 +972,7 @@
 				-5.5
 			],
 			"color": "#9bbb59",
-			"description": "der Apfel = jablko, die Äpfel = jablka\ndas Ei = vejce, die Eier = vejce (víc kusů)\ndie Milch = mléko   die Flasche = láhev\ndas Brot = chléb   der Käse = sýr\nFrau = paní   Herr = pan\nWas möchtest du? = Co si přeješ?\nDas macht zwei Euro. = Dělá to dvě eura."
+			"description": "der Apfel = jablko, die Äpfel = jablka\ndie Nuss = ořech, die Nüsse = ořechy\ndie Hafermilch = ovesné mléko (der Hafer = oves)   die Flasche = láhev\ndas Brot = chléb   das Mehl = mouka\nFrau = paní   Herr = pan\nWas möchtest du? = Co si přeješ?\nDas macht zwei Euro. = Dělá to dvě eura."
 		},
 		{
 			"id": "apples",
@@ -992,26 +986,26 @@
 			"description": "Tři červená jablka: drei Äpfel. Jedno jablko je „ein Apfel“."
 		},
 		{
-			"id": "eggs",
-			"name": "Sechs Eier",
+			"id": "nuts",
+			"name": "Sechs Nüsse",
+			"place": "",
+			"pos": [
+				0,
+				0
+			],
+			"color": "#8a6a4a",
+			"description": "Šest vlašských ořechů: sechs Nüsse. Jeden ořech je „eine Nuss“."
+		},
+		{
+			"id": "oat_milk",
+			"name": "Eine Flasche Hafermilch",
 			"place": "",
 			"pos": [
 				0,
 				0
 			],
 			"color": "#f4e9d0",
-			"description": "Šest vajec: sechs Eier. Jedno vejce je „ein Ei“."
-		},
-		{
-			"id": "milk",
-			"name": "Eine Flasche Milch",
-			"place": "",
-			"pos": [
-				0,
-				0
-			],
-			"color": "#ffffff",
-			"description": "Jedna láhev mléka: eine Flasche Milch."
+			"description": "Jedna láhev ovesného mléka: eine Flasche Hafermilch."
 		}
 	]
 }
