@@ -1,0 +1,1017 @@
+{
+	"title": "Auf dem Markt",
+	"intro": "Dnes je městská slavnost a pekař Ben peče Apfelkuchen, jablečný koláč. Nemůže odejít od trouby a prodavači na trhu mluví jenom německy. Zvládneš za něj nakoupit?",
+	"goal": "Kup na trhu všechno z Benova nákupního seznamu, a to německy.",
+	"start_place": "cafe",
+	"start_pos": [
+		0,
+		4.5
+	],
+	"places": [
+		{
+			"id": "cafe",
+			"name": "Benova kavárna",
+			"indoor": true,
+			"size": 16,
+			"props": [
+				{
+					"kind": "shelf",
+					"pos": [
+						-5,
+						-7.2
+					]
+				},
+				{
+					"kind": "shelf",
+					"pos": [
+						0,
+						-7.2
+					]
+				},
+				{
+					"kind": "shelf",
+					"pos": [
+						5,
+						-7.2
+					]
+				},
+				{
+					"kind": "table",
+					"pos": [
+						-5.5,
+						-3.5
+					],
+					"rot": 90,
+					"color": "#b98a5a"
+				},
+				{
+					"kind": "table",
+					"pos": [
+						4.5,
+						0.5
+					],
+					"color": "#d9c7a3"
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						4.5,
+						-1
+					],
+					"rot": 0
+				},
+				{
+					"kind": "table",
+					"pos": [
+						-5,
+						3.5
+					],
+					"color": "#d9c7a3"
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						-5,
+						2
+					],
+					"rot": 0
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						6.6,
+						-5
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						6.6,
+						-3.8
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						5.4,
+						-5.6
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						6.5,
+						6.5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-6.5,
+						6.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-6.8,
+						-6.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						6.8,
+						3.5
+					]
+				},
+				{
+					"kind": "cat",
+					"pos": [
+						3,
+						5
+					],
+					"rot": -120,
+					"color": "#f4f1ea"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						0,
+						7.6
+					],
+					"rot": 180,
+					"to": "market",
+					"label": "Tržiště"
+				}
+			]
+		},
+		{
+			"id": "market",
+			"name": "Tržiště",
+			"size": 38,
+			"props": [
+				{
+					"kind": "house",
+					"pos": [
+						0,
+						-13
+					],
+					"color": "#f0c9a0"
+				},
+				{
+					"kind": "house",
+					"pos": [
+						-13,
+						-13
+					],
+					"color": "#9cc3e0"
+				},
+				{
+					"kind": "house",
+					"pos": [
+						13,
+						-13
+					],
+					"color": "#e8b4a8"
+				},
+				{
+					"kind": "fountain",
+					"pos": [
+						0,
+						3
+					]
+				},
+				{
+					"kind": "table",
+					"pos": [
+						-10.5,
+						-2
+					],
+					"rot": 90,
+					"color": "#c0504d"
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-11.8,
+						-3.8
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-11.8,
+						-0.2
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-10.4,
+						0.2
+					],
+					"color": "#9bbb59"
+				},
+				{
+					"kind": "table",
+					"pos": [
+						10.5,
+						-2
+					],
+					"rot": 90,
+					"color": "#f2c14e"
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						11.8,
+						-3.8
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						11.8,
+						-0.2
+					]
+				},
+				{
+					"kind": "chicken",
+					"pos": [
+						13,
+						2
+					],
+					"rot": 30,
+					"color": "#f4f1ea"
+				},
+				{
+					"kind": "chicken",
+					"pos": [
+						14.5,
+						0.5
+					],
+					"rot": -60,
+					"color": "#c98a4b"
+				},
+				{
+					"kind": "chicken",
+					"pos": [
+						12.5,
+						4
+					],
+					"rot": 120,
+					"color": "#f4f1ea"
+				},
+				{
+					"kind": "table",
+					"pos": [
+						-8.5,
+						11
+					],
+					"rot": 90,
+					"color": "#4f81bd"
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-9.8,
+						9.3
+					]
+				},
+				{
+					"kind": "crate",
+					"pos": [
+						-9.8,
+						12.7
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-15,
+						9.5
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-15,
+						15
+					]
+				},
+				{
+					"kind": "fence",
+					"pos": [
+						-12,
+						15
+					]
+				},
+				{
+					"kind": "cow",
+					"pos": [
+						-14.5,
+						12.5
+					],
+					"rot": 60,
+					"color": "#f4f4f0"
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						4,
+						3
+					],
+					"rot": -90
+				},
+				{
+					"kind": "bench",
+					"pos": [
+						-4,
+						3
+					],
+					"rot": 90
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-3,
+						-6.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						3,
+						-6.5
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						-5,
+						8
+					]
+				},
+				{
+					"kind": "lamp",
+					"pos": [
+						6,
+						9
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-17.5,
+						-5
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						17.5,
+						-6
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						17,
+						8
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						9,
+						16.5
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						1,
+						17
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						-17.5,
+						3
+					]
+				},
+				{
+					"kind": "tree",
+					"pos": [
+						16.5,
+						16
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-6.5,
+						-16.5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						6.5,
+						-16.5
+					]
+				},
+				{
+					"kind": "pine",
+					"pos": [
+						-17.5,
+						17.5
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						-2,
+						-10.2
+					]
+				},
+				{
+					"kind": "plant",
+					"pos": [
+						2,
+						-10.2
+					]
+				},
+				{
+					"kind": "rock",
+					"pos": [
+						13.5,
+						11
+					]
+				},
+				{
+					"kind": "dog",
+					"pos": [
+						3,
+						9
+					],
+					"rot": 160,
+					"color": "#a0703c"
+				}
+			],
+			"doors": [
+				{
+					"pos": [
+						0,
+						-10.4
+					],
+					"to": "cafe",
+					"label": "Benova kavárna"
+				}
+			]
+		}
+	],
+	"characters": [
+		{
+			"id": "ben",
+			"name": "Ben",
+			"place": "cafe",
+			"pos": [
+				-2,
+				-3
+			],
+			"color": "#d08c3c",
+			"lines": [
+				{
+					"text": "Hallo! Peču Apfelkuchen na městskou slavnost, ale nemůžu odejít od trouby. Mohl bych tě poslat na trh? Prodavači tam mluví jenom německy.",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Jasně! Co potřebujete?",
+							"next": 1
+						}
+					],
+					"unless": "shopping_list"
+				},
+				{
+					"text": "Můj Einkaufszettel, nákupní seznam, leží na zemi u dveří, hned vedle tabulky čísel. Vezmi si obojí. Když chceš něco koupit, řekni „Ich möchte ..., bitte.“: Chci ..., prosím.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Už běžím!",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "Máš můj seznam, wunderbar! Ukaž, co neseš. Nejdřív: máš Äpfel?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Hier sind drei Äpfel.",
+							"next": 3,
+							"requires": "apples"
+						},
+						{
+							"text": "Ještě nemám nakoupeno.",
+							"next": -1
+						}
+					],
+					"requires": "shopping_list"
+				},
+				{
+					"text": "Danke! A co Eier?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Hier sind sechs Eier.",
+							"next": 4,
+							"requires": "eggs"
+						},
+						{
+							"text": "Ještě ne. Hned jsem zpátky!",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "Sehr gut! A poslední věc ze seznamu?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Hier ist die Milch.",
+							"next": 5,
+							"requires": "milk"
+						},
+						{
+							"text": "Ještě ne. Hned jsem zpátky!",
+							"next": -1
+						}
+					]
+				},
+				{
+					"text": "To je všechno! Teď mi pomoz péct. Kolik vajec patří do koláče? Řekni to německy!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Sieben!",
+							"next": 6
+						},
+						{
+							"text": "Sechs!",
+							"next": 7
+						},
+						{
+							"text": "Drei!",
+							"next": 6
+						}
+					]
+				},
+				{
+					"text": "Hm, spočítáme vejce spolu: eins, zwei, drei, vier, fünf, ... a ještě jedno. Co následuje po fünf?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Genau, sechs! A co nakrájím na plátky navrch koláče?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Die Eier.",
+							"next": 8
+						},
+						{
+							"text": "Die Äpfel.",
+							"next": 9
+						},
+						{
+							"text": "Die Milch.",
+							"next": 8
+						}
+					]
+				},
+				{
+					"text": "To by byl divný koláč! Je to přece Apfelkuchen. Které slovo slyšíš ve slově „Apfelkuchen“?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "Richtig, die Äpfel! Vielen Dank: mockrát děkuji. Koláč bude na slavnost včas hotový!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Bitte, Ben!",
+							"next": -1,
+							"ending": "Benův Apfelkuchen byl hvězdou městské slavnosti a celý nákup se ti povedl německy. Teď už umíš čísla od eins do zehn, slova Äpfel, Eier a Milch a víš, jak si o něco zdvořile říct: Ich möchte ..., bitte."
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fruit_seller",
+			"name": "Frau Schmidt",
+			"place": "market",
+			"pos": [
+				-8.5,
+				-2
+			],
+			"color": "#c0504d",
+			"lines": [
+				{
+					"text": "Guten Tag! Was möchtest du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Ještě nevíš, co máš koupit. Zeptej se Bena v kavárně.)",
+							"next": -1
+						}
+					],
+					"unless": "shopping_list"
+				},
+				{
+					"text": "Hallo! Die Äpfel sind lecker, oder?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Ja, sehr lecker! (Ano, moc dobrá!)",
+							"next": -1
+						}
+					],
+					"requires": "apples"
+				},
+				{
+					"text": "Guten Tag! Was möchtest du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Ich möchte zehn Äpfel, bitte.",
+							"next": 3
+						},
+						{
+							"text": "Ich möchte drei Äpfel, bitte.",
+							"next": 5
+						},
+						{
+							"text": "Ich möchte drei Eier, bitte.",
+							"next": 4
+						}
+					],
+					"requires": "shopping_list"
+				},
+				{
+					"text": "Frau Schmidt začne odpočítávat deset jablek. To je moc! Podívej se do seznamu: stojí tam „drei Äpfel“.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Frau Schmidt vrtí hlavou: „Eier? Ich habe keine Eier!“ Eier jsou vejce, a tohle je stánek s ovocem.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Drei Äpfel, gern! Das macht zwei Euro.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "(Zaplatíš 3 eura.)",
+							"next": 6
+						},
+						{
+							"text": "(Zaplatíš 2 eura.)",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "„Zwei Euro, nicht drei!“ Frau Schmidt ti jednu minci vrátí. Kolik je „zwei“?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Danke schön! Hier sind deine Äpfel.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke! Tschüss!",
+							"next": -1,
+							"gives": "apples"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "egg_seller",
+			"name": "Herr Yilmaz",
+			"place": "market",
+			"pos": [
+				8.5,
+				-2
+			],
+			"color": "#f2c14e",
+			"lines": [
+				{
+					"text": "Hallo! Was möchtest du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Ještě nevíš, co máš koupit. Zeptej se Bena v kavárně.)",
+							"next": -1
+						}
+					],
+					"unless": "shopping_list"
+				},
+				{
+					"text": "Hallo! Vorsicht mit den Eiern!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Ja! (Vorsicht znamená opatrně. Neseš vejce velmi opatrně.)",
+							"next": -1
+						}
+					],
+					"requires": "eggs"
+				},
+				{
+					"text": "Hallo! Was möchtest du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Ich möchte sieben Eier, bitte.",
+							"next": 3
+						},
+						{
+							"text": "Ich möchte sechs Eier, bitte.",
+							"next": 5
+						},
+						{
+							"text": "Ich möchte sechs Äpfel, bitte.",
+							"next": 4
+						}
+					],
+					"requires": "shopping_list"
+				},
+				{
+					"text": "Herr Yilmaz odpočítá sedm vajec. O jedno víc! „Sechs“ i „sieben“ začínají na s. Které z nich je šest?",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Herr Yilmaz ukazuje přes náměstí: „Äpfel? Dort, bei Frau Schmidt!“ On prodává Eier, vejce.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Sechs Eier, bitte schön! Das macht drei Euro.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "(Zaplatíš 2 eura.)",
+							"next": 6
+						},
+						{
+							"text": "(Zaplatíš 3 eura.)",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "Herr Yilmaz zvedne tři prsty: „Drei Euro, bitte!“ Chybí ještě jedno euro.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Danke! Hier sind deine Eier. Vorsicht!",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke! Tschüss!",
+							"next": -1,
+							"gives": "eggs"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "milk_seller",
+			"name": "Frau Weber",
+			"place": "market",
+			"pos": [
+				-6.5,
+				11
+			],
+			"color": "#4f81bd",
+			"lines": [
+				{
+					"text": "Guten Tag! Was möchtest du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "(Ještě nevíš, co máš koupit. Zeptej se Bena v kavárně.)",
+							"next": -1
+						}
+					],
+					"unless": "shopping_list"
+				},
+				{
+					"text": "Hallo! Die Milch ist ganz frisch!",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Danke! (Ganz frisch: úplně čerstvé.)",
+							"next": -1
+						}
+					],
+					"requires": "milk"
+				},
+				{
+					"text": "Guten Tag! Was möchtest du?",
+					"opens": true,
+					"choices": [
+						{
+							"text": "Ich möchte ein Brot, bitte.",
+							"next": 3
+						},
+						{
+							"text": "Ich möchte eine Flasche Milch, bitte.",
+							"next": 5
+						},
+						{
+							"text": "Ich möchte acht Flaschen Milch, bitte.",
+							"next": 4
+						}
+					],
+					"requires": "shopping_list"
+				},
+				{
+					"text": "„Brot? Ich habe kein Brot.“ Frau Weber ukáže na svou krávu. Brot je chléb; ona prodává to, co dává kráva.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Frau Weber vykulí oči: „Acht Flaschen?“ Osm lahví neuneseš! V seznamu stojí „eine Flasche“.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 2
+						}
+					]
+				},
+				{
+					"text": "Eine Flasche Milch, gern! Das macht einen Euro.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "(Zaplatíš 9 eur.)",
+							"next": 6
+						},
+						{
+							"text": "(Zaplatíš 1 euro.)",
+							"next": 7
+						}
+					]
+				},
+				{
+					"text": "„Nein, nein! Ein Euro, nicht neun!“ Frau Weber ti osm eur vrátí. „Ein“ je jedna, „neun“ je devět.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Zkusím to znovu.",
+							"next": 5
+						}
+					]
+				},
+				{
+					"text": "Danke schön! Hier ist deine Milch.",
+					"opens": false,
+					"choices": [
+						{
+							"text": "Danke! Tschüss!",
+							"next": -1,
+							"gives": "milk"
+						}
+					]
+				}
+			]
+		}
+	],
+	"items": [
+		{
+			"id": "shopping_list",
+			"name": "Einkaufszettel (nákupní seznam)",
+			"place": "cafe",
+			"pos": [
+				2,
+				5
+			],
+			"color": "#f4f1ea",
+			"description": "Für den Apfelkuchen (na jablečný koláč):\n- drei Äpfel\n- sechs Eier\n- eine Flasche Milch\n\nIch möchte ..., bitte. = Chci ..., prosím. (zdvořile: Chtěl nebo chtěla bych ...)"
+		},
+		{
+			"id": "number_chart",
+			"name": "Zahlen (tabulka čísel)",
+			"place": "cafe",
+			"pos": [
+				-2,
+				5
+			],
+			"color": "#4bacc6",
+			"description": "1 eins   2 zwei   3 drei   4 vier   5 fünf\n6 sechs   7 sieben   8 acht   9 neun   10 zehn\nPřed podstatným jménem se z „eins“ stane „ein“ nebo „eine“: ein Euro, eine Flasche."
+		},
+		{
+			"id": "market_sign",
+			"name": "Cedule na trhu",
+			"place": "market",
+			"pos": [
+				4,
+				-5.5
+			],
+			"color": "#9bbb59",
+			"description": "der Apfel = jablko, die Äpfel = jablka\ndas Ei = vejce, die Eier = vejce (víc kusů)\ndie Milch = mléko   die Flasche = láhev\ndas Brot = chléb   der Käse = sýr\nFrau = paní   Herr = pan\nWas möchtest du? = Co si přeješ?\nDas macht zwei Euro. = Dělá to dvě eura."
+		},
+		{
+			"id": "apples",
+			"name": "Drei Äpfel",
+			"place": "",
+			"pos": [
+				0,
+				0
+			],
+			"color": "#c0504d",
+			"description": "Tři červená jablka: drei Äpfel. Jedno jablko je „ein Apfel“."
+		},
+		{
+			"id": "eggs",
+			"name": "Sechs Eier",
+			"place": "",
+			"pos": [
+				0,
+				0
+			],
+			"color": "#f4e9d0",
+			"description": "Šest vajec: sechs Eier. Jedno vejce je „ein Ei“."
+		},
+		{
+			"id": "milk",
+			"name": "Eine Flasche Milch",
+			"place": "",
+			"pos": [
+				0,
+				0
+			],
+			"color": "#ffffff",
+			"description": "Jedna láhev mléka: eine Flasche Milch."
+		}
+	]
+}
